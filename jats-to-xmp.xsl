@@ -29,15 +29,13 @@
           <comment>DCMI Metadata Terms</comment>
           <terms:abstract><value-of select="$article-meta/abstract"/></terms:abstract>
           <terms:bibliographicCitation/>
-          <for-each select="$article-meta/contrib-group[@content-type='authors']/contrib[@contrib-type='author']/name">
-            <terms:creator>
-              <rdf:Seq>
-                <for-each select="$article-meta/contrib-group[@content-type='authors']/contrib[@contrib-type='author']/name">
-                  <rdf:li><value-of select="given-names"/><value-of select="surname"/></rdf:li>
-                </for-each>
-              </rdf:Seq>
-            </terms:creator>
-          </for-each>
+          <terms:creator>
+            <rdf:Seq>
+              <for-each select="$article-meta/contrib-group/contrib[@contrib-type='author']/name">
+                <rdf:li><value-of select="given-names"/><value-of select="surname"/></rdf:li>
+              </for-each>
+            </rdf:Seq>
+          </terms:creator>
           <terms:dateSubmitted><value-of select="$article-meta/history/date[@date-type='submitted']/@iso-8601-date"/></terms:dateSubmitted>
           <terms:dateAccepted><value-of select="$article-meta/history/date[@date-type='accepted']/@iso-8601-date"/></terms:dateAccepted>
           <terms:issued><value-of select="$article-meta/pub-date[@pub-type='epub']/@iso-8601-date"/></terms:issued>
@@ -62,7 +60,7 @@
           <dc:title><value-of select="$article-meta/title-group/article-title"/></dc:title>
           <dc:creator>
             <rdf:Seq>
-              <for-each select="$article-meta/contrib-group[@content-type='authors']/contrib[@contrib-type='author']/name">
+              <for-each select="$article-meta/contrib-group/contrib[@contrib-type='author']/name">
                 <rdf:li><value-of select="given-names"/><value-of select="surname"/></rdf:li>
               </for-each>
             </rdf:Seq>
