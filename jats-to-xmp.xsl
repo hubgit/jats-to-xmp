@@ -24,35 +24,49 @@
           xmlns:terms="http://purl.org/dc/terms/"
           xmlns:crossmark="http://crossref.org/crossmark/1.0/"
           xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
-          xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+          xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:dctype="http://purl.org/dc/dcmitype/">
 
           <comment>DCMI Metadata Terms</comment>
           <terms:abstract><value-of select="$article-meta/abstract"/></terms:abstract>
           <terms:bibliographicCitation/>
-          <terms:creator>
-            <rdf:Seq>
-              <for-each select="$article-meta/contrib-group/contrib[@contrib-type='author']/name">
-                <rdf:li><value-of select="given-names"/> <value-of select="surname"/></rdf:li>
-              </for-each>
-            </rdf:Seq>
-          </terms:creator>
+          <for-each select="$article-meta/contrib-group/contrib[@contrib-type='author']/name">
+            <terms:creator>
+              <dcterms:Agent>
+                <foaf:familyName><value-of select="surname"/></foaf:familyName>
+                <foaf:givenName><value-of select="given-names"/></foaf:givenName><!--foaf:nick?-->
+              </dcterms:Agent>
+            </terms:creator>
+          </for-each>
           <terms:dateSubmitted><value-of select="$article-meta/history/date[@date-type='submitted']/@iso-8601-date"/></terms:dateSubmitted>
           <terms:dateAccepted><value-of select="$article-meta/history/date[@date-type='accepted']/@iso-8601-date"/></terms:dateAccepted>
           <terms:issued><value-of select="$article-meta/pub-date[@pub-type='epub']/@iso-8601-date"/></terms:issued>
-          <terms:format>application/pdf</terms:format>
+          <terms:format>
+            <terms:MediaTypeOrExtent>
+              <rdf:value>application/pdf</rdf:value>
+            </terms:MediaTypeOrExtent>
+          </terms:format>
           <terms:identifier><value-of select="concat('doi:', $doi)"/></terms:identifier>
-          <terms:license><value-of select="$license"/></terms:license>
-          <terms:publisher><value-of select="$journal-meta/publisher/publisher-name"/></terms:publisher>
-          <terms:rights><value-of select="$article-meta/permissions/copyright-statement"/></terms:rights>
-          <terms:subject>
-            <rdf:Seq>
-              <for-each select="$article-meta/article-categories/subj-group/subject">
-                <rdf:li><value-of select="."/></rdf:li>
-              </for-each>
-            </rdf:Seq>
-          </terms:subject>
+          <terms:license>
+            <terms:LicenseDocument rdf:resource="$license"/>
+          </terms:license>
+          <terms:publisher>
+            <terms:Agent>
+              <foaf:name><value-of select="$journal-meta/publisher/publisher-name"/></foaf:name>
+              <foaf:homepage><value-of select="$journal-meta/publisher/publisher-loc/uri"/></foaf:homepage>
+            </terms:Agent>
+          </terms:publisher>
+          <terms:rights>
+            <terms:RightsStatement rdf:resource="http://creativecommons.org/licenses/by/3.0/legalcode"/><!--TODO-->
+          </terms:rights>
+          <for-each select="$article-meta/article-categories/subj-group/subject">
+            <terms:subject rdf:parseType="Resource">
+              <rdf:value><value-of select="."/></rdf:value>
+            </terms:subject>
+          </for-each>
           <terms:title><value-of select="$article-meta/title-group/article-title"/></terms:title>
-          <terms:type>Text</terms:type>
+          <terms:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
 
           <comment>Dublin Core</comment>
           <dc:format>application/pdf</dc:format>
@@ -61,7 +75,7 @@
           <dc:creator>
             <rdf:Seq>
               <for-each select="$article-meta/contrib-group/contrib[@contrib-type='author']/name">
-                <rdf:li><value-of select="given-names"/>< value-of select="surname"/></rdf:li>
+                <rdf:li><value-of select="given-names"/> <value-of select="surname"/></rdf:li>
               </for-each>
             </rdf:Seq>
           </dc:creator>
