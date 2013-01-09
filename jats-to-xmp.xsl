@@ -81,6 +81,7 @@
           <prism:doi><value-of select="$doi"/></prism:doi>
           <prism:issn><value-of select="$journal-meta/issn"/></prism:issn>
           <prism:volume><value-of select="$article-meta/volume"/></prism:volume>
+          <prism:issue><value-of select="$article-meta/issue"/></prism:issue>
           <prism:publicationName><value-of select="$journal-meta/journal-title-group/journal-title"/></prism:publicationName>
           <prism:publicationDate><value-of select="$article-meta/pub-date[@pub-type='epub']/@iso-8601-date"/></prism:publicationDate>
           <prism:copyright><value-of select="$article-meta/permissions/copyright-statement"/></prism:copyright>
