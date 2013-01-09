@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="publisher-id">PONE-D-11-15519</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0051885</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Computational biology</subject>
+            <subj-group>
+              <subject>Population modeling</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Ecology</subject>
+            <subj-group>
+              <subject>Biodiversity</subject>
+              <subject>Conservation science</subject>
+              <subject>Species extinction</subject>
+              <subject>Terrestrial ecology</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Evolutionary biology</subject>
+            <subj-group>
+              <subject>Evolutionary processes</subject>
+              <subj-group>
+                <subject>Species extinction</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Population biology</subject>
+            <subj-group>
+              <subject>Population modeling</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Zoology</subject>
+            <subj-group>
+              <subject>Entomology</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Computational Biology</subject>
+          <subject>Evolutionary Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Modeling the Habitat Retreat of the Rediscovered Endemic Hawaiian Moth <italic>Omiodes continuatalis</italic> Wallengren (Lepidoptera: Crambidae)</article-title>
+        <alt-title alt-title-type="running-head">Modeling the Decline of a Threatened Insect</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Vorsino</surname>
+            <given-names>Adam E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>King</surname>
+            <given-names>Cynthia B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Haines</surname>
+            <given-names>William P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Rubinoff</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>Department of Plant and Environmental Protection Sciences, University of Hawaii, Honolulu, Hawaii, United States of America</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>Salamin</surname>
+            <given-names>Nicolas</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>University of Lausanne, Switzerland</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email xlink:type="simple">rubinoff@hawaii.edu</email></corresp>
+        <fn fn-type="conflict">
+          <p>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: CK WH AV DR. Performed the experiments: CK WH. Analyzed the data: CK AV WH. Contributed reagents/materials/analysis tools: AV DR. Wrote the paper: CK AV WH DR.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>2</day>
+        <month>1</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>1</issue>
+      <elocation-id>e51885</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>5</day>
+          <month>8</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Vorsino et al</copyright-holder>
+        <license xlink:type="simple">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Survey data over the last 100 years indicate that populations of the endemic Hawaiian leafroller moth, <italic>Omiodes continuatalis</italic> (Wallengren) (Lepidoptera: Crambidae), have declined, and the species is extirpated from large portions of its original range. Declines have been attributed largely to the invasion of non-native parasitoid species into Hawaiian ecosystems. To quantify changes in <italic>O. continuatalis</italic> distribution, we applied the maximum entropy modeling approach using M<sc>axent</sc>. The model referenced historical (1892–1967) and current (2004–2008) survey data, to create predictive habitat suitability maps which illustrate the probability of occurrence of <italic>O. continuatalis</italic> based on historical data as contrasted with recent survey results. Probability of occurrence is predicted based on the association of biotic (vegetation) and abiotic (proxy of precipitation, proxy of temperature, elevation) environmental factors with 141 recent and historic survey locations, 38 of which <italic>O. continuatalis</italic> were collected from. Models built from the historical and recent surveys suggest habitat suitable for <italic>O. continuatalis</italic> has changed significantly over time, decreasing both in quantity and quality. We reference these data to examine the potential effects of non-native parasitoids as a factor in changing habitat suitability and range contraction for <italic>O. continuatalis</italic>. Synthesis and applications: Our results suggest that the range of <italic>O. continuatalis</italic>, an endemic Hawaiian species of conservation concern, has shrunk as its environment has degraded. Although few range shifts have been previously demonstrated in insects, such contractions caused by pressure from introduced species may be important factors in insect extinctions.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This research was funded by a USDA Cooperative State Research, Education and Extension (CSREES) Special Research Grant Tropical and Subtropical Agricultural Research (USDA CSREES Award #2004-34135-14998), as well as USDA-NIFA Agreement No. 58-5320-9-430, and Hatch projects HAW00942-H and HAW00956-H, administered by the College of Tropical Agriculture and Human Resources. Additional funding was provided by the University of Hawaii Manoa Ecology, Evolution and Conservation Biology program (NSF grant #DGE02-32016), and the NSF Graduate Research Fellowship Program. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Concerns over non-target effects of introduced biological control agents on native insects were most famously raised to the public conscience by conservationists in Hawaii <xref ref-type="bibr" rid="pone.0051885-Gagn1">[1]</xref>–<xref ref-type="bibr" rid="pone.0051885-Howarth1">[2]</xref>. The geographic isolation of the Hawaiian Islands has resulted in the evolution of a remarkable diversity of endemic organisms, and scientists expressed concern over the long-term threats to the persistence of these unique species <xref ref-type="bibr" rid="pone.0051885-Howarth1">[2]</xref>. Based on a review of biological control programs, and an assessment of the conservation status of endemic Hawaiian terrestrial arthropods, introduced biological control agents were postulated to be responsible for the extinction of at least 15 endemic Hawaiian Lepidoptera <xref ref-type="bibr" rid="pone.0051885-Gagn1">[1]</xref>.</p>
+      <p>Hawaiian species in the moth genus <italic>Omiodes</italic> Guenée (Lepidoptera; Crambidae) have been at the forefront of heated debates concerning the safety and practicality of biological control on endemic organisms. In the early 1900s, two of the 23 Hawaiian species, the sugarcane leafroller (<italic>O. accepta</italic> Butler) and the coconut leafroller (<italic>O. blackburni</italic> Butler), became pests of economic significance on their respective crops <xref ref-type="bibr" rid="pone.0051885-Gagn1">[1]</xref>, <xref ref-type="bibr" rid="pone.0051885-Funasaki1">[3]</xref>. In response, between 1895 and 1960, several parasitoids were brought to the islands and released to suppress populations of the two endemic pests <xref ref-type="bibr" rid="pone.0051885-Funasaki1">[3]</xref>. Subsequently, these introduced parasitoids were implicated in the disappearance and possible extinction of 14 non-target <italic>Omiodes</italic> species <xref ref-type="bibr" rid="pone.0051885-Gagn1">[1]</xref>. The release of these generalist parasitoids was conducted prior to the adoption of modern, more stringent and specific, biological control and risk assessment methodologies <xref ref-type="bibr" rid="pone.0051885-Messing1">[4]</xref>.</p>
+      <p>However, assertions of non-target impacts of the biological control agents were largely based on casual field observations, as opposed to research specifically designed to quantify non-target impacts <xref ref-type="bibr" rid="pone.0051885-Howarth1">[2]</xref>, <xref ref-type="bibr" rid="pone.0051885-Howarth2">[5]</xref>–<xref ref-type="bibr" rid="pone.0051885-Follett1">[6]</xref>. In response to this lack of data, retrospective studies were initiated over the last 20 years to assess the non-target effects of both accidentally and purposefully introduced parasitoids on current populations of several native Hawaiian insects <xref ref-type="bibr" rid="pone.0051885-Funasaki1">[3]</xref>, <xref ref-type="bibr" rid="pone.0051885-Henneman1">[7]</xref>–<xref ref-type="bibr" rid="pone.0051885-Johnson1">[9]</xref>. These studies confirmed that non-target attacks occur, but have only recently demonstrated that non-target parasitism is sufficient to cause population declines in native Hawaiian insects, though parasitoids may not be solely responsible for native insect extinctions <xref ref-type="bibr" rid="pone.0051885-King1">[10]</xref>, <xref ref-type="bibr" rid="pone.0051885-King2">[11]</xref>.</p>
+      <p><italic>Omiodes continuatalis</italic> (Wallengren) is an endemic Hawaiian leafroller moth that feeds on both native and non-native grasses, and was formerly widely distributed across the Hawaiian Islands <xref ref-type="bibr" rid="pone.0051885-Zimmerman1">[12]</xref>. This moth was listed as extinct in the 1980s <xref ref-type="bibr" rid="pone.0051885-Gagn1">[1]</xref>, and while it has since been rediscovered <xref ref-type="bibr" rid="pone.0051885-Haines1">[13]</xref>, surveys indicate that the species has declined across large portions of its original range <xref ref-type="bibr" rid="pone.0051885-King2">[11]</xref>, and like many endemic Hawaiian insects, it is of conservation concern. The moth was historically found on all of the main Hawaiian Islands, but now occurs only on the islands of Hawaii, Maui, Molokai, Lanai and Kahoolawe <xref ref-type="bibr" rid="pone.0051885-King2">[11]</xref>. The reasons for the species’ extinction from relatively pristine reserves on the islands of Kauai and Oahu, and for its persistence in altered habitat on other islands, remain unclear.</p>
+      <p>Understanding why native species may be eliminated from nature reserves yet persist in altered landscapes is of broad importance to the fields of ecology and conservation. Conservation management often focuses on maintaining natural features of reserves, primarily native vegetation, but such features may not be the limiting factors defining suitable habitat for species of conservation concern. The impacts of invasive parasitoids on host species can vary greatly depending on the environmental conditions of the habitats where they occur, and parasitoids cause non-uniform range reductions in some species of Lepidoptera due to interactions with the local environment <xref ref-type="bibr" rid="pone.0051885-Benson1">[14]</xref>. Because <italic>O. continuatalis</italic> appears to have suffered such non-uniform range reductions, it is an ideal candidate for examining how changes in habitat suitability over time, including parasitoid invasions, affect the persistence of a species across landscapes. The objectives of this study were to explore the spatial and temporal nature of the decline of <italic>O. continuatalis</italic> by examining changes in the presence and distribution of high quality habitat, as inferred from the historical and current presence of the moths. We used a retrospective ecological niche modeling (ENM) approach to reveal patterns of habitat overlap and movement.</p>
+      <p>Here we apply the maximum entropy approach to illustrate and quantify the probability of occurrence of a declining moth, <italic>O. continuatalis,</italic> across the Hawaiian Islands, and explore how the probability of occurrence has changed over time. By using projections of future climatic conditions, we also predict how habitat suitability is likely to continue to change in the future. We explore the reasons behind changes in habitat suitability, specifically referencing the distribution and impacts of introduced parasitoids.</p>
+    </sec>
+    <sec id="s2" sec-type="materials|methods">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Collections</title>
+        <sec id="s2a1">
+          <title>Current survey data</title>
+          <p>Current distribution data for <italic>O. continuatalis</italic> were obtained from field surveys at 111 locations, for 186 cumulative trap nights, across the Hawaiian Islands between 2004 and 2010 (<xref ref-type="fig" rid="pone-0051885-g001">Fig. 1</xref>). Locations for field surveys were selected based on the historical presence of <italic>Omiodes</italic> species, and/or the presence of <italic>O. continuatalis</italic> host plants. Ultraviolet (UV) lights were used either with bucket traps or on suspended white sheets to survey for <italic>O. continuatalis</italic> adults, with at least one of the two trap types set at each field site. These methods are effective for collecting <italic>O. continuatalis</italic>, which are strongly attracted to UV lights <xref ref-type="bibr" rid="pone.0051885-King2">[11]</xref>. Moths observed but not necessarily collected during visual surveys were also included in these data. Specimens from current surveys were deposited at the University of Hawaii Insect Museum (UHIM). Only data points representing the localities where <italic>O. continuatalis</italic> were found (n = 19) (<xref ref-type="fig" rid="pone-0051885-g001">Fig. 1</xref>) were used in these analyses, because the modeling methods used rely on presence-only data (see below). Geographic coordinates were obtained for each of the localities using a Garmin eTrex Vista HCx Global Positioning System (GPS) unit, and by geocoding the localities using ArcGIS 10 <xref ref-type="bibr" rid="pone.0051885-ESRI1">[15]</xref> and Google Earth. All locality and environmental data were visualized in ArcGIS 10.</p>
+          <fig id="pone-0051885-g001" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0051885.g001</object-id>
+            <label>Figure 1</label>
+            <caption>
+              <title>Map of historic and current <italic>O. continuatalis</italic> presence localities collected from around the Hawaiian Islands, as well as light trap collection localities where <italic>O. continuatalis</italic> were not observed during current surveys.</title>
+              <p>These points were used to develop the Ecological Niche Models for each time period.</p>
+            </caption>
+            <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0051885.g001" position="float" xlink:type="simple"/>
+          </fig>
+        </sec>
+      </sec>
+      <sec id="s2b">
+        <title>Historical Survey Data</title>
+        <p>Historical <italic>O. continuatalis</italic> distribution data were obtained from the labels of <italic>O. continuatalis</italic> specimens deposited in the Bishop Museum insect collection (BPBM, Honolulu, HI). The Bishop Museum is the only significant source of historical locality data for <italic>O. continuatalis</italic>. Locality data (place name and elevation) for all <italic>O. continuatalis</italic> specimens collected during the period 1892–1967, were downloaded from the National Biological Information Infrastructure website (<ext-link ext-link-type="uri" xlink:href="http://www.nbii.gov" xlink:type="simple">http://www.nbii.gov</ext-link>). Collections of <italic>Omiodes continuatalis</italic> occurred continuously over this 75-year period, by many different collectors who primarily used light traps, but apparently ceased in 1967 and were not resumed until our current surveys. Specimen collection locations were reviewed and geocoded using ArcMAP or Google Earth to obtain geographic coordinates. Specimens without adequate information to geo-reference localities within approximately 1 km were not used in the analyses. Where multiple specimens were available for the same locality, the locality data were geocoded only once. Out of 40 individual historical collections with adequately precise locality information, we derived point data for 19 localities across seven islands (<xref ref-type="fig" rid="pone-0051885-g001">Fig. 1</xref>).</p>
+      </sec>
+      <sec id="s2c">
+        <title>Habitat Suitability Analysis</title>
+        <sec id="s2c1">
+          <title>Selection of key habitat variables</title>
+          <p>We selected and developed four environmental variables (elevation, vegetation, and proxies for precipitation, and temperature) that would maximize variance explained per site while also reducing over-parameterization and auto-correlation (<xref ref-type="table" rid="pone-0051885-t001">Table 1</xref>). We chose a broad set of environmental attributes that varied on a relatively coarse spatial scale (30 arc seconds, or ∼ 1 km) because we had a small number of localities from which to define the ENM, and these were all based on light trap collections of adult moths (a coarser indicator of distribution than larval surveys). By incorporating only this subset of descriptive variables we created a liberal prediction of distribution compared to what might be predicted based on larval distribution data, which are unavailable for <italic>O. continuatalis</italic> due to their cryptic nature <xref ref-type="bibr" rid="pone.0051885-King3">[16]</xref>.</p>
+          <table-wrap id="pone-0051885-t001" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0051885.t001</object-id>
+            <label>Table 1</label>
+            <caption>
+              <title>An overview of the environmental variables used to define the ENM for <italic>O. continuatalis.</italic></title>
+            </caption>
+            <alternatives>
+              <graphic id="pone-0051885-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0051885.t001" xlink:type="simple"/>
+              <table>
+                <colgroup span="1">
+                  <col align="left" span="1"/>
+                  <col align="center" span="1"/>
+                  <col align="center" span="1"/>
+                  <col align="center" span="1"/>
+                  <col align="center" span="1"/>
+                  <col align="center" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1"/>
+                    <td align="left" rowspan="1" colspan="1">Description</td>
+                    <td align="left" rowspan="1" colspan="1">Source</td>
+                    <td align="left" rowspan="1" colspan="1">Ecological Relevance</td>
+                    <td align="left" rowspan="1" colspan="1">Variable type</td>
+                    <td align="left" rowspan="1" colspan="1">Citation</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>Elevation</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">DEM: 10 meter digital elevation model of the Hawaiian Islands</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="http://ccma.nos.noaa.gov/products/biogeography/hawaii_cd_07/welcome.htm" xlink:type="simple">http://ccma.nos.noaa.gov/products/biogeography/hawaii_cd_07/welcome.htm</ext-link>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">Elevation is directly correlated in the distribution of many native and non-native insects and is definitive of microhabitat use <xref ref-type="bibr" rid="pone.0051885-Gagn1">[1]</xref>, <xref ref-type="bibr" rid="pone.0051885-Gagn2">[70]</xref>–<xref ref-type="bibr" rid="pone.0051885-Gagn5">[73]</xref></td>
+                    <td align="left" rowspan="1" colspan="1">Continuous/Abiotic</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <xref ref-type="bibr" rid="pone.0051885-National1">[74]</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>Vegetation Map</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">Hawaii USGS 30 meter LANDFIRE Analysis Vegetation map</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="http://landfire.cr.usgs.gov/viewer/" xlink:type="simple">http://landfire.cr.usgs.gov/viewer/</ext-link>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">Existing Vegetation Type analysis conducted for the Hawaiian Islands describing vegetation ecotypes based on canopy height and cover. It can used as a relatively large scale predictor of biotic trends <xref ref-type="bibr" rid="pone.0051885-Menuz1">[75]</xref>–<xref ref-type="bibr" rid="pone.0051885-Rollins1">[76]</xref>.</td>
+                    <td align="left" rowspan="1" colspan="1">Categorical/Biotic</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <xref ref-type="bibr" rid="pone.0051885-Rollins1">[76]</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>Current PCAtemp</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">The first Eigenvector of a Principal Component Analysis of current (1950–2000) temperature</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="http://worldclim.org" xlink:type="simple">http://worldclim.org</ext-link>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">Descriptive of the variance in temperature as described by the first eigenvector of Bioclimatic variables 1–12. Using this descriptor as a variable reduces multi-colinearity (redundancy).</td>
+                    <td align="left" rowspan="1" colspan="1">Continuous/Abiotic</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <xref ref-type="bibr" rid="pone.0051885-Hijmans1">[17]</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>Current PCAprecip</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">The first Eigenvector of a Principal Component Analysis of current (1950–2000) precipitation</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="http://worldclim.org" xlink:type="simple">http://worldclim.org</ext-link>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">Descriptive of the variance in precipitation as described by the first eigenvector of Bioclimatic variables 13–19. Using this descriptor as a variable reduces multi-colinearity (redundancy).</td>
+                    <td align="left" rowspan="1" colspan="1">Continuous/Abiotic</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <xref ref-type="bibr" rid="pone.0051885-Hijmans1">[17]</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>Future PCAtemp</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">The first Eigenvector of a Principal Component Analysis of future (2050) temperature inferred from the GFLD 2.1 climate model A2a emission scenario.</td>
+                    <td align="left" rowspan="1" colspan="1"><ext-link ext-link-type="uri" xlink:href="http://www.ccafs" xlink:type="simple">http://www.ccafs</ext-link> <italic>-climate.org/</italic></td>
+                    <td align="left" rowspan="1" colspan="1">Used the same Bioclimatic variables as the current PCAtemp. A model evaluation conducted by Irving <italic>et al.,</italic> <xref ref-type="bibr" rid="pone.0051885-Irving1">[18]</xref> indicated that the GFDL 2.1 climate model performed adequately for Pacific region projections.</td>
+                    <td align="left" rowspan="1" colspan="1">Continuous/Abiotic</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <xref ref-type="bibr" rid="pone.0051885-Delworth1">[77]</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>Future PCAprecip</bold>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">The first Eigenvector of a Principal Component Analysis of future (2050) temperature inferred from the GFLD 2.1 climate model for the A2a emission scenario.</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <ext-link ext-link-type="uri" xlink:href="http://www.ccafs-climate.org/" xlink:type="simple">http://www.ccafs-climate.org/</ext-link>
+                    </td>
+                    <td align="left" rowspan="1" colspan="1">Used the same Bioclimatic variables as the current PCAprecip. A model evaluation conducted by Irving <italic>et al.,</italic> <xref ref-type="bibr" rid="pone.0051885-Irving1">[18]</xref> indicated that the GFDL 2.1 climate model performed adequately for Pacific region projections.</td>
+                    <td align="left" rowspan="1" colspan="1">Continuous/Abiotic</td>
+                    <td align="left" rowspan="1" colspan="1">
+                      <xref ref-type="bibr" rid="pone.0051885-Delworth1">[77]</xref>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </alternatives>
+          </table-wrap>
+          <p>The abiotic variables PCAPrcp and PCATemp are the first eigenvectors (EV's) of a Principal Component Analysis (PCA) conducted on a subset of the 19 current and future 30 arc second bioclimatic variables (<ext-link ext-link-type="uri" xlink:href="http://www.worldclim.org" xlink:type="simple">www.worldclim.org</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://www.ccafs-climate.org" xlink:type="simple">www.ccafs-climate.org</ext-link>) in the Spatial Analyst extension for ArcGIS 10. The worldclim dataset was developed from data collected between 1950 and 2000 <xref ref-type="bibr" rid="pone.0051885-Hijmans1">[17]</xref>, and was used to develop the ENM describing the contemporary and historic distributions of <italic>O. continuatalis</italic>.</p>
+          <p>Two PCAs were conducted such that the variance described by temperature (PCATemp = Bioclimatic variables 1–11) and precipitation (PCAPrcp = Bioclimatic variables 12–19) were explained by two separate analyses. <xref ref-type="table" rid="pone-0051885-t001">Table 1</xref> shows the manner in which the bioclimatic variables were parsed. The first EV of the precipitation PCA explained 99% of the variance in both the current and future datasets. For temperature, the first EV explained only 60.8% and 74.1%, while the second EV explained 39.1% and 25.8% of the variance in current and future climate datasets, respectively. Supporting information <xref ref-type="supplementary-material" rid="pone.0051885.s001">Tables S1A</xref>-D show the EVs from PCAs, and the proportional and cumulative variance explained by each. The future bioclimatic variables were derived from the 2050 GFDL 2.1 climate change model under the A2a emission scenario, which was described by Irving <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0051885-Irving1">[18]</xref> as appropriate for predicting the effects of climate change in the Pacific Islands<monospace>.</monospace></p>
+          <p>Correlations between all pairs of environmental and climate variables (current and projected) were assessed using Pearson correlation analyses in ENM<sc>tools</sc> (vers. 2.1). Variables were selected for inclusion in analyses only if they were less than 35% correlated (positively or negatively) to another variable within the same time period (current or future) This is a conservative approach towards autocorrelation (i.e. multi-colinearity) considering other studies have used a selection threshold of less than 75% correlation <xref ref-type="bibr" rid="pone.0051885-Rissler1">[19]</xref>. The second EV's of both current and future temperature PCA's (i.e. PCAtemp 2) were removed due to their extensive overlap with elevation. Our final analysis consisted of three abiotic variables (elevation, PCAtemp, PCAprecip) and a single biotic variable (vegetation). As recommended by Phillips <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0051885-Phillips1">[20]</xref>, we used a categorical variable describing vegetation type to better define the distribution of <italic>O. continuatalis</italic>.</p>
+        </sec>
+        <sec id="s2c2">
+          <title>Analyses</title>
+          <p>In both agricultural and conservation management, ENM's have been used to predict the suitable habitat of an organism in either its ancestral region or novel areas of possible invasion <xref ref-type="bibr" rid="pone.0051885-Pape1">[21]</xref>–<xref ref-type="bibr" rid="pone.0051885-Marini1">[27]</xref>. Using the ENM approach, ecologists can infer inter- and intra-species fundamental niches <xref ref-type="bibr" rid="pone.0051885-Rissler1">[19]</xref>, <xref ref-type="bibr" rid="pone.0051885-Peterson1">[28]</xref>–<xref ref-type="bibr" rid="pone.0051885-Kumar1">[29]</xref> prevalence <xref ref-type="bibr" rid="pone.0051885-Manel1">[30]</xref>–<xref ref-type="bibr" rid="pone.0051885-Freeman1">[32]</xref>, and niche overlap <xref ref-type="bibr" rid="pone.0051885-Warren1">[33]</xref>. Though there are a large number of other modeling approaches capable of defining these habitat characteristics, the presence-only maximum entropy approach implemented in the program M<sc>axent</sc> is one of the most widely used and accurate techniques <xref ref-type="bibr" rid="pone.0051885-Peterson1">[28]</xref>, <xref ref-type="bibr" rid="pone.0051885-Brotons1">[34]</xref>–<xref ref-type="bibr" rid="pone.0051885-Phillips2">[38]</xref>. Using species presences and environmental variables (elevation, soil, temperature, landcover etc.). M<sc>axent</sc> has been used to accurately estimate the ENM under maximum entropy from as few as five occurrence records <xref ref-type="bibr" rid="pone.0051885-Phillips1">[20]</xref>–<xref ref-type="bibr" rid="pone.0051885-Pearson1">[22]</xref>, <xref ref-type="bibr" rid="pone.0051885-Kumar1">[29]</xref>, <xref ref-type="bibr" rid="pone.0051885-Phillips2">[38]</xref>.</p>
+          <p>As recommended by Pearson <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0051885-Pearson1">[22]</xref>, a presence only modeling technique was used, in part to account for difficulty of detecting <italic>O. continuatalis.</italic> Given the mobile nature of adult moths, the failure to collect <italic>O. continuatalis</italic> during a particular trapping event can imply false absence <xref ref-type="bibr" rid="pone.0051885-Anderson1">[39]</xref>–<xref ref-type="bibr" rid="pone.0051885-JimnezValverde1">[42]</xref>, making the presence-only modeling technique implemented in M<sc>axent</sc> vers. 3.3.3 <xref ref-type="bibr" rid="pone.0051885-Phillips1">[20]</xref>, <xref ref-type="bibr" rid="pone.0051885-Phillips2">[38]</xref>, a more appropriate methodology for our data set <xref ref-type="bibr" rid="pone.0051885-Pearson1">[22]</xref>, <xref ref-type="bibr" rid="pone.0051885-Vclavk1">[43]</xref>. Using the presence only methodology implemented in M<sc>axent</sc> we were able to compare historic, current, and future predictions (i.e. time series analysis).</p>
+          <p>We used the maximum entropy ENM technique to analyze historic and current data to describe the historic, current, and future distribution of <italic>O. continuatalis</italic>. The maximum entropy “machine learning” methodology models the distribution of environmental variables as extracted from occurrence localities over geographic space. The approach then compares this distribution to a null distribution of those environmental variables over the same geographic space using a set of background points, referred to as pseudo-absences. Using this modeling approach, model significance and validation estimates can be approximated. This methodological framework is discussed in more detail by Phillips <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0051885-Phillips1">[20]</xref>, Phillips &amp; Dudík <xref ref-type="bibr" rid="pone.0051885-Phillips2">[38]</xref>, Franklin <xref ref-type="bibr" rid="pone.0051885-Franklin1">[44]</xref>, and Elith <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0051885-Elith2">[45]</xref>.</p>
+        </sec>
+        <sec id="s2c3">
+          <title>Modeling parameters</title>
+          <p>Within M<sc>axent</sc> the maximum number of background points was set to 10,000 with a regularization multiplier of one. Bootstrap analysis was conducted over 500 replicates and the output format was set to the logistic option to better visualize the data. We used the threshold rule of <italic>equal training sensitivity and specificity</italic> to model each distribution throughout Hawaii <xref ref-type="bibr" rid="pone.0051885-Canran1">[46]</xref>, <xref ref-type="bibr" rid="pone.0051885-Bartel1">[47]</xref>. <italic>Equal training sensitivity and specificity</italic> refers to the choice of a model that has an equal probability of being sensitive (predicting true presences) as it does of being specific (predicting true absences) <xref ref-type="bibr" rid="pone.0051885-Freeman1">[32]</xref>, <xref ref-type="bibr" rid="pone.0051885-Canran1">[46]</xref>, <xref ref-type="bibr" rid="pone.0051885-JimnezValverde2">[48]</xref>. For all other variables the recommended default settings were used, as described in Phillips <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0051885-Phillips1">[20]</xref>, <xref ref-type="bibr" rid="pone.0051885-Phillips2">[38]</xref>. Because we had acquired presence and absence data for the current distribution of <italic>O. continuatalis,</italic> a separate ENM analysis was conducted (not reported here) using the current data, where the default prevalence of 0.5 was changed to 0.22 (the number of presence points/total number of points). We do not report this assessment because it was found to overlap with the current ENM defining habitat under the default (0.5) prevalence. As such, we only report the model developed under the default prevalence to allow for direct comparisons among time series. The Habitat Suitability Index (HSI) per pixel was calculated in M<sc>axent</sc>, where a value of 0 represented unsuitable habitat and a value of 1 represented completely suitable habitat. For ease of interpretation, each map was projected in ArcGIS on an HSI scale from 0 to 0.86, because 0.86 was the largest HSI reported in any of the analyses.</p>
+        </sec>
+        <sec id="s2c4">
+          <title>Model validation</title>
+          <p>The presence-only area under the curve (p-AUC) analysis describing the sensitivity and specificity of each ENM prediction was calculated from a random test percentage of 20% of the data. Further validation of the model was conducted following the protocols of Pearson <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0051885-Pearson1">[22]</xref> in the program <sc>p</sc>V<sc>alue</sc>C<sc>ompute</sc> vers. 1 <xref ref-type="bibr" rid="pone.0051885-Pearson1">[22]</xref>. This Jackknife validation test describes the probability of successfully predicting a randomly selected occurrence point (q). The test generates a p-value describing the analyses significance when compared to a random distribution <xref ref-type="bibr" rid="pone.0051885-Pearson1">[22]</xref>.</p>
+        </sec>
+      </sec>
+      <sec id="s2d">
+        <title>Model Comparison</title>
+        <p>We used the niche overlap tool in ENM<sc>tools</sc> vers 1.3 <xref ref-type="bibr" rid="pone.0051885-Warren1">[33]</xref> to calculate pairwise niche overlap between developed models. The niche overlap tool calculates two similarity metrics, the <italic>D</italic> and <italic>I</italic> statistics <xref ref-type="bibr" rid="pone.0051885-Warren2">[49]</xref>, both of which range from 0 to 1. Here we report the <italic>I</italic> statistic, as it is more appropriate for presence-only ENM analyses <xref ref-type="bibr" rid="pone.0051885-Warren2">[49]</xref>. A relative rank test and niche breadth analysis were also conducted using ENM<sc>tools</sc>. The relative rank test is correlated with the <italic>I</italic> metric, but is a measure of habitat pairing over all the possible habitat patches <xref ref-type="bibr" rid="pone.0051885-Warren1">[33]</xref>. This test outputs a value between 0 (no agreement) and 1 (complete agreement) <xref ref-type="bibr" rid="pone.0051885-Warren3">[50]</xref>.</p>
+        <p>The <italic>I</italic> and relative rank metrics were further analyzed with the niche identity test in ENM<sc>tools</sc>. The identity test assesses whether the habitat suitability scores defined in two different ENM's are ecologically significantly different. In this test, the actual niche overlap metric (i.e. similarity metric) is compared to a one-tailed normalized null distribution to assess significance of the analysis. The identity test used here compares the niche overlap or relative rank of either the current or historical distribution of <italic>O. continuatalis</italic> and that of a model developed from a random selection of both sets of occurrence localities <xref ref-type="bibr" rid="pone.0051885-Warren1">[33]</xref>, <xref ref-type="bibr" rid="pone.0051885-Warren2">[49]</xref>. This identity test was replicated 100 times with 1000 Markov Chain Monte Carlo (MCMC) iterations, as recommended by Warren <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0051885-Warren2">[49]</xref>.</p>
+        <p>We also conducted a niche breadth analysis using the Levin's niche breadth (B) analysis technique <xref ref-type="bibr" rid="pone.0051885-Levins1">[51]</xref>. This metric describes the distribution of suitable habitat over the area tested. The Niche Breadth analysis is here used to define how the relationship of <italic>O. continuatalis</italic> to the environmental variables is changing over time. Like the relative rank test, niche breadth test values range from 0 (where only a single grid cell is considered suitable) to 1 (where all the grid cells are suitable) <xref ref-type="bibr" rid="pone.0051885-Warren1">[33]</xref>, <xref ref-type="bibr" rid="pone.0051885-Warren3">[50]</xref>.</p>
+        <p>The area (km<sup>2</sup>) of suitable habitat per island was then defined to better understand how the habitat is distributed throughout the islands, and how the habitat will change with time on each island. To quantify suitable habitat we first must define a threshold of habitat suitability; here suitable habitat was defined as all pixels with an HSI ≥0.5. This was not the threshold used in the M<sc>axent</sc> model for validation estimates, rather we decided to use this cutoff for ease of interpretation. Area of suitable habitat was then estimated for each island in A<sc>rc</sc>GIS.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>ENM's and their Validation</title>
+        <p><xref ref-type="fig" rid="pone-0051885-g002">Figures 2A–B</xref> and <xref ref-type="fig" rid="pone-0051885-g003">3A–B</xref> show the ENMs developed for the historic, current, and future <italic>O. continuatalis</italic> distributions, each of which represents the mean of 500 spatial data models. The test p-AUC values ± the standard deviation averaged over all 500 model replicates are 0.861±0.118 for the current ENM and 0.804±0.124 for the historic ENM. Values of p-AUC greater than 0.8, such as those in this study, are indicative of highly specific and predictive models <xref ref-type="bibr" rid="pone.0051885-Peterson1">[28]</xref>, <xref ref-type="bibr" rid="pone.0051885-Phillips3">[52]</xref>. The Jackknife validation test, an independent validation assessment for small sample sizes of each predicted distribution, was conducted in <sc>p</sc>V<sc>aluecompute</sc> for each collection period (i.e. historic and current). This analysis is indicative of significantly predictive models when compared to a random distribution (p&lt;0.0001 for both historic and current distributions). The Jackknife validation test predicted 78% of the historic and 69% of the current presence points used in the analysis.</p>
+        <fig id="pone-0051885-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0051885.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>The Ecological Niche Models (ENM) defined in Maxent showing the distribution of <italic>O. continuatialis</italic> as collected from 2004 to 2010 and projected onto a set of biotic and abiotic variables.</title>
+            <p>The figure shows the current ENM (A) along with that of the ENM projected into 2050 (B). The 2050 GFDL 2.1 climate change model was used to derive projected future climate variables. As compared to the current distribution (A) the 2050 projected distribution (B) shows an expansion of suitable habitat area (see <xref ref-type="table" rid="pone-0051885-t004">Table 4</xref>).</p>
+          </caption>
+          <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0051885.g002" position="float" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0051885-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0051885.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>The Ecological Niche Models (ENM) defined in Maxent showing the distribution of <italic>O. continuatialis</italic> as collected from 1892 to 1967 and projected onto a set of biotic and abiotic variables.</title>
+            <p>The figure shows the historically defined ENM (A) along with that of the ENM projected 2050 (B). The 2050 GFDL 2.1 climate change model was used to derive projected future climate variables. As compared to the historic distribution (A) the 2050 projected distribution of historic data (B) shows an expansion of suitable habitat area (see <xref ref-type="table" rid="pone-0051885-t004">Table 4</xref>). Although the trend of habitat expansion is similar to the contemporary (current and projected) models, the overall model prediction differs significantly (<xref ref-type="table" rid="pone-0051885-t002">Table 2</xref>).</p>
+          </caption>
+          <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0051885.g003" position="float" xlink:type="simple"/>
+        </fig>
+      </sec>
+      <sec id="s3b">
+        <title>ENM Comparisons and Overlap</title>
+        <p><xref ref-type="table" rid="pone-0051885-t002">Table 2</xref> shows the niche comparison metrics <xref ref-type="bibr" rid="pone.0051885-Warren2">[49]</xref>, as compared between current and historic collections under current and future climate scenarios. The greatest overlap was between projections of future distributions and the ENMs for the collection periods on which the future projections were based. The least overlap was between the 2050 projection based on current collection data and the ENM for the historic distribution. Interestingly, the identity test did not show ecologically significant differences between the current and historic distributions as defined for the current climate, yet there was a significant difference estimated when these same comparisons were conducted on the future climate projections (<xref ref-type="table" rid="pone-0051885-t002">Table 2</xref>). The other comparison statistic used, the relative rank estimate, also showed high overlap between the current ENM and its future projection, and between the historic ENM and its future projection. This test showed relatively low overlap between current and historic ENMs. This would indicate that the current and historic habitat patches are not occupied in a similar manner. Both current and future climate projections for the current and historic data were found to be ecologically significantly different using the relative rank identity test (<xref ref-type="table" rid="pone-0051885-t002">Table 2</xref>).</p>
+        <table-wrap id="pone-0051885-t002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0051885.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Niche comparison metrics as calculated in ENMtools.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0051885-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0051885.t002" xlink:type="simple"/>
+            <table>
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td colspan="3" align="left" rowspan="1">Range Overlap</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Contemporary Projection</td>
+                  <td align="left" rowspan="1" colspan="1">Historic Analysis</td>
+                  <td align="left" rowspan="1" colspan="1">Historic Projection</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Contemporary Analysis</td>
+                  <td align="left" rowspan="1" colspan="1">0.6228</td>
+                  <td align="left" rowspan="1" colspan="1">0.0000</td>
+                  <td align="left" rowspan="1" colspan="1">0.0071</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Contemporary Projection</td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">0.1249</td>
+                  <td align="left" rowspan="1" colspan="1">0.1498</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Historic Analysis</td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">0.9978</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td colspan="3" align="left" rowspan="1">Relative Rank</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Contemporary Projection</td>
+                  <td align="left" rowspan="1" colspan="1">Historic Analysis</td>
+                  <td align="left" rowspan="1" colspan="1">Historic Projection</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Contemporary Analysis</td>
+                  <td align="left" rowspan="1" colspan="1">0.8855</td>
+                  <td align="left" rowspan="1" colspan="1">0.4896*</td>
+                  <td align="left" rowspan="1" colspan="1">0.4881</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Contemporary Projection</td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">0.4252</td>
+                  <td align="left" rowspan="1" colspan="1">0.4257*</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Historic Analysis</td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">0.9674</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td colspan="3" align="left" rowspan="1">Niche Overlap (<italic>I</italic>)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Contemporary Projection</td>
+                  <td align="left" rowspan="1" colspan="1">Historic Analysis</td>
+                  <td align="left" rowspan="1" colspan="1">Historic Projection</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Contemporary Analysis</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">0.9840</td>
+                  <td align="left" rowspan="1" colspan="1">0.8252 (n.s.)</td>
+                  <td align="left" rowspan="1" colspan="1">0.8316</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Contemporary Projection</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">0.7990</td>
+                  <td align="left" rowspan="1" colspan="1">0.8068*</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Historic Analysis</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">–</td>
+                  <td align="left" rowspan="1" colspan="1">0.9992</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>Here the range overlap (difference in ranges between time periods), relative rank overlap (difference in habitat pairing between time periods), and niche overlap (<italic>I</italic>) (pairwise niche overlap between time points) metrics are shown. The results (significance or non-significance) of the identity test are also given for each applicable comparison (Relative Rank and Niche Overlap). Due to the nature of the identity test we could only compare point distributions under either the current or the future climate model, as such only two comparisons per model were conducted. Significance of the identity test (p&lt;0.05) is indicated by “*”, whereas non-significance (p&gt;0.05) is indicated by “n.s.”. The analysis indicates highly divergent Historic and Contemporary (current and projected) distributions of <italic>O. continuatalis</italic>.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>The niche breadth analysis in <xref ref-type="table" rid="pone-0051885-t003">Table 3</xref> gives a good indication of habitat suitability/specificity over all the areas tested for each model. Interestingly, higher levels of suitability were defined by the future projections than the ENMs for current and historic distributions. This predicts an expansion of suitable habitat under projected future climate regimes, assuming all other variables remain the same.</p>
+        <table-wrap id="pone-0051885-t003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0051885.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>The Levin's Niche breadth analysis outputs a scale of specialization between 0 and 1, where “0” is a specialist and “1” is a generalist.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0051885-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0051885.t003" xlink:type="simple"/>
+            <table>
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Niche Breadth</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">B1 (inverse concentration)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Contemporary Analysis</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">0.5067</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Contemporary Projection</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">0.5444</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Historic Analysis</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">0.6149</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Historic Projection</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">0.6451</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt102">
+              <label/>
+              <p>Here, niche breadth is used as a measure of the association to the environmental variables over time. Interestingly, the contemporary current and projected distribution of <italic>O. continuatalis</italic> shows lower niche specificity than does the historic distribution.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Yet a severe reduction in suitable habitat area is observed from historic to current time periods, suggesting that the range reduction from historical to current time periods is independent of climate change, perhaps due to changes in habitat or biotic interactions. As shown in <xref ref-type="table" rid="pone-0051885-t004">Table 4</xref>, which compares suitable habitat by island, the total percent reduction in suitable habitat between historic and current distributions modeled under current climate conditions is 98.2%, and this difference remains substantial (90.2%) when modeled under future climate conditions. The differential between the historic and current models (current and future projections) corresponds to a total reduction of suitable habitat across all islands of −933 km<sup>2</sup> and −1637 km<sup>2</sup>, respectively. Although a total reduction in habitat occurs for the summed area over all islands, some specific islands (i.e. Kahoolawe, Maui, Hawaii) experience an expansion of habitat area from historic to current periods modeled using current or future climate scenarios (<xref ref-type="table" rid="pone-0051885-t004">Table 4</xref>).</p>
+        <table-wrap id="pone-0051885-t004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0051885.t004</object-id>
+          <label>Table 4</label>
+          <caption>
+            <title>The area of suitable habitat (locations with an HSI&gt;50%) per island per ENM in km<sup>2</sup>, the difference in these scenarios as compared between current and historic distributions, and their future (2050) projections.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0051885-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0051885.t004" xlink:type="simple"/>
+            <table>
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td colspan="4" align="left" rowspan="1">Area of Suitable Habitat (&gt;50% HSI) per Analysis (km<sup>2</sup>)</td>
+                  <td colspan="2" align="left" rowspan="1">Current Climate Models</td>
+                  <td colspan="2" align="left" rowspan="1">2050 Future Climate Models</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Island</td>
+                  <td align="left" rowspan="1" colspan="1">Historic ENM</td>
+                  <td align="left" rowspan="1" colspan="1">Historic Projection</td>
+                  <td align="left" rowspan="1" colspan="1">Contemp. ENM</td>
+                  <td align="left" rowspan="1" colspan="1">Contemp.Projection</td>
+                  <td align="left" rowspan="1" colspan="1">Δ Habitat Area (Contemp.-Historic)</td>
+                  <td align="left" rowspan="1" colspan="1">% Δ Area</td>
+                  <td align="left" rowspan="1" colspan="1">Δ Projected Habitat Area (Contemp.-Historic)</td>
+                  <td align="left" rowspan="1" colspan="1">% Δ Area</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Niihau</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">4.69</td>
+                  <td align="left" rowspan="1" colspan="1">173.39</td>
+                  <td align="left" rowspan="1" colspan="1">0.04</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">−4.65</td>
+                  <td align="left" rowspan="1" colspan="1">−99.14</td>
+                  <td align="left" rowspan="1" colspan="1">−173.39</td>
+                  <td align="left" rowspan="1" colspan="1">−100</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Kauai</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">575.47</td>
+                  <td align="left" rowspan="1" colspan="1">1036.34</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">−575.47</td>
+                  <td align="left" rowspan="1" colspan="1">−100</td>
+                  <td align="left" rowspan="1" colspan="1">−1036.34</td>
+                  <td align="left" rowspan="1" colspan="1">−100</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Oahu</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">224.54</td>
+                  <td align="left" rowspan="1" colspan="1">416.76</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">−224.54</td>
+                  <td align="left" rowspan="1" colspan="1">−100</td>
+                  <td align="left" rowspan="1" colspan="1">−416.76</td>
+                  <td align="left" rowspan="1" colspan="1">−100</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Molokai</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">55.58</td>
+                  <td align="left" rowspan="1" colspan="1">82.28</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">−55.58</td>
+                  <td align="left" rowspan="1" colspan="1">−100</td>
+                  <td align="left" rowspan="1" colspan="1">−82.28</td>
+                  <td align="left" rowspan="1" colspan="1">−100</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Lanai</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">15.61</td>
+                  <td align="left" rowspan="1" colspan="1">17.31</td>
+                  <td align="left" rowspan="1" colspan="1">0.07</td>
+                  <td align="left" rowspan="1" colspan="1">10.4</td>
+                  <td align="left" rowspan="1" colspan="1">−15.54</td>
+                  <td align="left" rowspan="1" colspan="1">−99.55</td>
+                  <td align="left" rowspan="1" colspan="1">−6.91</td>
+                  <td align="left" rowspan="1" colspan="1">−39.92</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Kahoolawe</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">5.62</td>
+                  <td align="left" rowspan="1" colspan="1">1.3</td>
+                  <td align="left" rowspan="1" colspan="1">+5.62</td>
+                  <td align="left" rowspan="1" colspan="1">+&gt;100</td>
+                  <td align="left" rowspan="1" colspan="1">+1.3</td>
+                  <td align="left" rowspan="1" colspan="1">+&gt;100</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Maui</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">68.33</td>
+                  <td align="left" rowspan="1" colspan="1">83.65</td>
+                  <td align="left" rowspan="1" colspan="1">11.29</td>
+                  <td align="left" rowspan="1" colspan="1">106.56</td>
+                  <td align="left" rowspan="1" colspan="1">−57.04</td>
+                  <td align="left" rowspan="1" colspan="1">−83.47</td>
+                  <td align="left" rowspan="1" colspan="1">+22.91</td>
+                  <td align="left" rowspan="1" colspan="1">+27.39</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Hawaii</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">6.06</td>
+                  <td align="left" rowspan="1" colspan="1">5.608</td>
+                  <td align="left" rowspan="1" colspan="1">0.01</td>
+                  <td align="left" rowspan="1" colspan="1">59.98</td>
+                  <td align="left" rowspan="1" colspan="1">−6.05</td>
+                  <td align="left" rowspan="1" colspan="1">−99.83</td>
+                  <td align="left" rowspan="1" colspan="1">+54.372</td>
+                  <td align="left" rowspan="1" colspan="1">+969.5</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Total</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">950.28</td>
+                  <td align="left" rowspan="1" colspan="1">1815.34</td>
+                  <td align="left" rowspan="1" colspan="1">17.03</td>
+                  <td align="left" rowspan="1" colspan="1">178.24</td>
+                  <td align="left" rowspan="1" colspan="1">−933.25</td>
+                  <td align="left" rowspan="1" colspan="1">−98.21</td>
+                  <td align="left" rowspan="1" colspan="1">−1637.098</td>
+                  <td align="left" rowspan="1" colspan="1">−90.18</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt103">
+              <label/>
+              <p>The change (Δ) in habitat area is defined here by both percent change (%Δ Area) and the differences in the modeled ENMs. Totals are also defined to describe each distribution/projection in relation to the total area involved (all of the islands). The analysis indicates a large reduction in suitable habitat, though future projections of both current and historic <italic>O. continuatalis</italic> distributions indicate a habitat expansion.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>The habitat utilized by a species is directly and indirectly influenced by abiotic environmental conditions. First, each species has a range of tolerance for abiotic environmental conditions, such as temperature and moisture, and a particular combination of these conditions is usually optimal for growth and reproduction. Second, adequate food resources, and the quality and abundance of these resources, whether they consist of detritus, specific host plants, or prey, are influenced by abiotic conditions. Finally, the range of a species is affected by pressures exerted by competitors, parasites, predators, and diseases, all of which are related to environmental conditions. A range shift in a species can therefore be driven by either a change in environmental conditions themselves (e.g. global warming or drought), or a change in any one of several indirect pressures that interact with environmental conditions (<italic>e.g.</italic>, the addition of a novel predator or competitor). Our objective in conducting the habitat suitability analyses was to quantify how the distribution, extent and quality of habitat for <italic>O. continuatalis</italic> has changed over time, and to explore possible explanations for why such changes may have occurred in light of the above mechanisms.</p>
+      <p>The predictive habitat distribution maps suggest that the current optimal habitat for <italic>O. continuatalis</italic> is significantly reduced compared to its historical range (<xref ref-type="table" rid="pone-0051885-t004">Table 4</xref>). Additionally, these analyses suggest that localities where <italic>O. continuatalis</italic> is currently found are peripheral with respect to habitat considered optimal based on historical data (<xref ref-type="fig" rid="pone-0051885-g002">Figures 2</xref> &amp; <xref ref-type="fig" rid="pone-0051885-g003">3</xref>). The average elevation ± standard deviation for historic optimal habitat, defined here as habitat with an HSI &gt;0.5, is 665 (±396) m with a maximum elevation of 1,813 m. This contrasts with the contemporary average elevation, which is 541 (±207) m, with a maximum elevation of 1,167 m. The comparison indicates, for elevation at least, that the new optimal habitat is a contraction of the historic distribution.</p>
+      <p>We do not suspect that changes in food resources through habitat alteration are responsible for the shift in optimal range for <italic>O. continuatalis</italic>, although human land use impacts dominant vegetation and habitat structure, and can reduce or eliminate available resources, thereby reducing the persistence of populations <xref ref-type="bibr" rid="pone.0051885-Speight1">[53]</xref>. For Lepidoptera restricted to feeding on rare or patchy resources, habitat destruction and alteration often translates into a decline or loss of larval host plants and adult nectar sources <xref ref-type="bibr" rid="pone.0051885-Schultz1">[54]</xref>–<xref ref-type="bibr" rid="pone.0051885-Rubinoff2">[56]</xref>. However, <italic>O. continuatalis</italic> is polyphagous on grasses, and readily utilizes several widespread non-native grass species, including hilo grass (<italic>Paspalum conjugatum</italic> Bergius) and kikuyu grass (<italic>Pennisetum clandestinum</italic> Chiov.) <xref ref-type="bibr" rid="pone.0051885-Zimmerman1">[12]</xref>, which occur abundantly in many disturbed habitats, and are often the dominant groundcover of roadsides and pastures. Therefore, host plant distribution is not likely to be a direct limiting factor, although feeding on non-native host plants may influence the likelihood that non-native parasitoids will locate larvae. This hypothesis is supported by current survey data, which record <italic>O. continuatalis</italic> in habitats ranging from relatively intact native forest (Makawao Forest Reserve, Maui; Keamoku Flow, Hawaii Island) to highly disturbed agricultural areas (Haliimaile and Kula, Maui; Honokaa, Hawaii Island) and pasture (Haleakala Ranch, Maui) where native grasses do not occur. These data demonstrate that local extirpations of <italic>O. continuatalis</italic> populations do not correlate with habitat alteration through changes in land use.</p>
+      <p>Given that much of the optimal habitat contraction has been from lower to higher elevations, it is tempting to invoke climate change as a factor pushing <italic>O. continuatalis</italic> to higher elevations. In general, insect populations are expected to migrate to higher elevations and latitudes as global temperatures increase <xref ref-type="bibr" rid="pone.0051885-Samways1">[57]</xref>, and a warming trend has been documented in Hawaii <xref ref-type="bibr" rid="pone.0051885-Giambelluca1">[58]</xref>, as well as changes in precipitation <xref ref-type="bibr" rid="pone.0051885-Chu1">[59]</xref>. Although we would certainly expect changes in climate to influence habitat suitability, perhaps via interactions with parasitoids, the effect of climate change on suitable habitat between historical and current time periods is unclear. The historic and current ENM's were both inferred using the W<sc>orldclim</sc> dataset developed from data collected between 1950 and 2000 <xref ref-type="bibr" rid="pone.0051885-Hijmans1">[17]</xref>, which encompasses one of the most dynamic contemporary climatic periods ever recorded due to anthropogenic climate change <xref ref-type="bibr" rid="pone.0051885-Giambelluca1">[58]</xref>, <xref ref-type="bibr" rid="pone.0051885-ElisonTimm1">[60]</xref>. Although the shift in suitable habitat is consistent with what we might expect due to climate change, the projected 2050 ENMs using both current and historical collection data show an expansion of suitable habitat rather than a contraction, suggesting that the decrease in suitable habitat observed thus far is not simply a product of long-term climate trends.</p>
+      <p>If direct changes in abiotic factors are not responsible for the shift in habitat suitability, ecological interactions are another possible explanation. Introduced parasitoids and predators such as ants and vespid wasps are often assumed to be responsible for declines in Hawaiian Lepidoptera <xref ref-type="bibr" rid="pone.0051885-Gagn1">[1]</xref>, <xref ref-type="bibr" rid="pone.0051885-Howarth1">[2]</xref>. Direct field observations confirm that <italic>O. continuatalis</italic> larvae are attacked by at least two ant species, <italic>Pheidole megacephala</italic> (Fabricius) and <italic>Anoplolepis gracilipes</italic> (Fr. Smith) <xref ref-type="bibr" rid="pone.0051885-King4">[61]</xref>, and they are likely attacked by other ant species as well. There are no native social insects in Hawaii, thus native insects are not evolutionarily equipped to defend against ant predation <xref ref-type="bibr" rid="pone.0051885-Howarth3">[62]</xref>, <xref ref-type="bibr" rid="pone.0051885-Krushelnycky1">[63]</xref>. There are at least 57 introduced ant species in Hawaii <xref ref-type="bibr" rid="pone.0051885-Krushelnycky2">[64]</xref>, and the highest diversity and density of ant species occurs at elevations below 900 m <xref ref-type="bibr" rid="pone.0051885-Reimer1">[65]</xref>. Given the extent of historical optimal habitat for <italic>O. continuatalis</italic>, ants have undoubtedly impacted lower elevation <italic>O. continuatalis</italic> populations. However the broader pattern of declines and extirpations of <italic>O. continuatalis</italic> is inconsistent with ant invasions across the Hawaiian Islands. <italic>Omiodes continuatalis</italic> has disappeared from apparently suitable habitats that currently have no ants, few ant species, or low densities of ants. For example, Kokee State Park on Kauai has experienced little invasion and establishment by ants <xref ref-type="bibr" rid="pone.0051885-Reimer1">[65]</xref>, yet the results of extensive field surveys in the area indicate that <italic>O. continuatalis</italic> is no longer present, despite having been collected there until 1937. In contrast, field sites that have yielded the greatest number of <italic>O. continuatalis</italic> adults are infested with ants, including the voracious predator <italic>P. megacephala</italic> <xref ref-type="bibr" rid="pone.0051885-King4">[61]</xref>. While the latter example shows only that <italic>O. continuatalis</italic> populations are able to withstand the effects of predation by ants in some habitats, the former example confirms that factors other than ants and habitat destruction are adversely affecting <italic>O. continuatalis</italic> populations.</p>
+      <p>Interactions with parasitoid wasps are also likely to have affected the range of <italic>O. continuatalis,</italic> and these interactions may be mediated by abiotic factors. Research over the last 20 years has confirmed that introduced biological control agents and adventive parasitoids utilize a broad range of native Hawaiian insects <xref ref-type="bibr" rid="pone.0051885-Funasaki1">[3]</xref>, <xref ref-type="bibr" rid="pone.0051885-Henneman1">[7]</xref>–<xref ref-type="bibr" rid="pone.0051885-King1">[10]</xref>. These non-native parasitoid species have invaded relatively intact native ecosystems <xref ref-type="bibr" rid="pone.0051885-Henneman1">[7]</xref>, <xref ref-type="bibr" rid="pone.0051885-Peck1">[66]</xref>, where other invasive predators have not established. Both accidentally and purposefully introduced parasitoid species are widely distributed throughout the Hawaiian Islands <xref ref-type="bibr" rid="pone.0051885-Nishida1">[67]</xref>. At least 42 non-native parasitoid species known to utilize Lepidoptera larvae or pupae have been collected from field sites across the Hawaiian Islands, and no fewer than 24 of them have been found inhabiting high elevation native forest habitats <xref ref-type="bibr" rid="pone.0051885-Henneman1">[7]</xref>, <xref ref-type="bibr" rid="pone.0051885-King2">[11]</xref>, <xref ref-type="bibr" rid="pone.0051885-Phillips1">[20]</xref>, <xref ref-type="bibr" rid="pone.0051885-Peck1">[66]</xref>.</p>
+      <p>In previous studies, the authors estimated parasitism rates on <italic>O. continuatalis</italic> at sites on Oahu and Maui using controlled exposure trials <xref ref-type="bibr" rid="pone.0051885-King4">[61]</xref>, in which sentinel eggs and larvae were exposed to parasitism. At least five non-native parasitoid species were found to attack <italic>O. continuatalis</italic>, and the estimated risk of parasitism was calculated to be higher at the Oahu site (65.3%) than at multiple Maui field sites where estimated risk ranged from 4.9%–27.4% <xref ref-type="bibr" rid="pone.0051885-King4">[61]</xref>. An extensive metadata analysis of biological control introductions suggests that parasitism rates above 36% can independently suppress host populations <xref ref-type="bibr" rid="pone.0051885-Hawkins1">[68]</xref>. While data from Maui indicate a risk of parasitism below this level, the 65.3% risk of parasitism for <italic>O. continuatalis</italic> on Oahu greatly exceeds this threshold. These data are consistent with the results of our ENMs, given that suitable habitat on Oahu has been more severely reduced than suitable habitat on Maui (<xref ref-type="table" rid="pone-0051885-t004">Table 4</xref>).</p>
+      <p>Mortality from non-native parasitoids, if it is related to the environmental variables examined in this study, could explain the pattern of island extinctions that have been observed in <italic>O. continuatalis</italic> <xref ref-type="bibr" rid="pone.0051885-King2">[11]</xref>. Recent and intensive survey efforts on Kauai and Oahu failed to locate <italic>O. continuatalis</italic>, even in localities where the species was previously collected <xref ref-type="bibr" rid="pone.0051885-King2">[11]</xref>. The habitat suitability analyses suggest that there is no longer suitable habitat (HSI ≥0.5) for <italic>O. continuatalis</italic> on Kauai or Oahu, demonstrating a match between our model, field data, and expert opinion. More rigorous comparisons of parasitoid communities and rates of attack on the different islands are necessary to establish whether parasitism is an important factor in determining geographic range.</p>
+      <p>One important application of ENMs for threatened species is as a predictive tool to inform survey efforts. The ENM based on recent collection records identified suitable habitat in areas that have not been recently sampled, suggesting areas where remnant populations might be found. For instance, although there was no habitat considered suitable (HSI ≥0.5) on the island of Oahu, where this species is apparently extirpated, the best available habitat was concentrated in the central basin of the island, an area that has not been extensively surveyed. Similarly, the island of Niihau, which is privately owned and inaccessible to biologists and the general public, showed some suitable habitat. On Molokai, this species has been recently collected only once, from a well-sampled reserve in the central part of the island, yet the ENM suggests similarly suitable habitat might occur in the inaccessible eastern part of the island, where collection effort has been limited. In contrast, the island of Kauai showed very low habitat suitability, and may not be an ideal island on which to focus future survey efforts. The current ENM could also be used to identify the most viable locations for reintroduction efforts for <italic>O. continuatalis</italic>. Analyses of mitochondrial genetic data from this species has shown that populations exhibit both high levels of genetic diversity and almost no evidence of island-based genetic isolation, making it an ideal candidate for reintroduction on islands where it has been extirpated (W. Haines, unpublished data). Using the current ENM to identify introduction sites may increase chances of success.</p>
+      <sec id="s4a">
+        <title>Conclusion</title>
+        <p>In this study we identified a trend of shrinking and shifting distributions of <italic>O. continuatalis</italic>, and discuss this trend in the context of experimental data from previous studies indicating spatially heterogeneous rates of attack by invasive parasitoids. While the M<sc>axent</sc> approach is a promising tool to quantify changes in distribution of declining species like <italic>O. continuatalis</italic>, this model does not provide a means to determine the exact cause of the population decline. However, the model does elucidate an important temporal phenomenon: what used to be the highest quality habitat for <italic>O. continuatalis</italic> is now less frequented by the species, and the moths are now largely found in what was, based on historical data, lower quality habitat. This paradigm has been shown in birds <xref ref-type="bibr" rid="pone.0051885-Clout1">[69]</xref> and demonstrates that current refugia may not represent the most favorable combination of abiotic variables under natural conditions, since present distributions might be determined by novel ecological interactions, not abiotic factors such as climate.</p>
+        <p>The ENM approach can be very important in drawing attention to cryptic causes for the disappearance of species of concern from historically suitable parts of their range. This is an essential first step in effectively conserving and reintroducing threatened species. The ENMs produced by M<sc>axent</sc> analyses can be used to target areas for future surveys, or to identify potential sites of reintroduction for example, on islands where <italic>O. continuatalis</italic> has been extirpated. Our findings may also influence broader programs targeting the conservation of native insects or other declining species for which detailed ecological data is lacking, or hard to collect, since the ENM methodology is applicable to most habitat assessment efforts.</p>
+      </sec>
+    </sec>
+    <sec id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material id="pone.0051885.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0051885.s001" position="float" xlink:type="simple">
+        <label>Table S1</label>
+        <caption>
+          <p><bold>A–D: The results of the Principal Component Analysis (PCA) of precipitation and temperature variables (i.e. Bioclim 12–19 and 1–11, respectively) for both contemporary (A &amp; C) and future (B &amp; D) projections.</bold> The Eigenvalue of each principle component is indicated, along with the proportional and cumulative variance explained.</p>
+          <p>(DOCX)</p>
+        </caption>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank the Bishop Museum for access to insect collections and online records, as well as the various individuals, government agencies, and private institutions who gave permission to survey on their lands, including B. Gagné, G. Shishido, G. Kawakami, and J. Cumming (Hawaii Department of Land and Natural Resources), J. Giffin (The Nature Conservancy Hawaii), E. Gordon and R. Kaholoa‘a (Haleakala National Park), and T. Tunison, R. Loh and D. Foote (Hawaii Volcanoes National Park). We also thank M. Wright, C. Hooks, L. Fortini, and F. Amidon for reviewing this manuscript, as well as the anonymous reviewers who provided valuable feedback.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0051885-Gagn1">
+        <label>1</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Gagné WC, Howarth FG (1982) Conservation status of endemic Hawaiian Lepidoptera. Proc 3rd Congr Eur Lepid, Cambridge.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Howarth1">
+        <label>2</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Howarth</surname><given-names>FG</given-names></name> (<year>1983</year>) <article-title>Classical Biocontrol: Panacea or Pandora's Box</article-title>. <source>Proc Hawaii Entomol Soc</source> <volume>24</volume>: <fpage>239</fpage>–<lpage>244</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Funasaki1">
+        <label>3</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Funasaki</surname><given-names>GY</given-names></name>, <name name-style="western"><surname>Lai</surname><given-names>PY</given-names></name>, <name name-style="western"><surname>Nakahara</surname><given-names>LM</given-names></name>, <name name-style="western"><surname>Beardsley</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Ota</surname><given-names>AK</given-names></name> (<year>1988</year>) <article-title>A review of biological control introductions in Hawaii: 1890 to 1985</article-title>. <source>Proc Hawaii Entomol Soc</source> <volume>28</volume>: <fpage>105</fpage>–<lpage>160</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Messing1">
+        <label>4</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Messing</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Wright</surname><given-names>MG</given-names></name> (<year>2006</year>) <article-title>Biological control of invasive species: Solution or pollution?</article-title> <source>Front Ecol Environ</source> <volume>4</volume>: <fpage>132</fpage>–<lpage>140</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Howarth2">
+        <label>5</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Howarth</surname><given-names>FG</given-names></name> (<year>1991</year>) <article-title>Environmental impacts of classical biological control</article-title>. <source>Ann Rev Entomol</source> <volume>36</volume>: <fpage>485</fpage>–<lpage>509</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Follett1">
+        <label>6</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Follett</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Duan</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Messing</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Jones</surname><given-names>VP</given-names></name> (<year>2000</year>) <article-title>Parasitoid drift after biological control introductions: Re-examining Pandora's Box</article-title>. <source>Amer Entomol</source> <volume>46</volume>: <fpage>82</fpage>–<lpage>94</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Henneman1">
+        <label>7</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Henneman</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Memmott</surname><given-names>J</given-names></name> (<year>2001</year>) <article-title>Infiltration of a Hawaiian community by introduced biological control agents</article-title>. <source>Science</source> <volume>293</volume>: <fpage>1314</fpage>–<lpage>1316</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Oboyski1">
+        <label>8</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oboyski</surname><given-names>PT</given-names></name>, <name name-style="western"><surname>Slotterback</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Banko</surname><given-names>PC</given-names></name> (<year>2004</year>) <article-title>Differential parasitism of seed-feeding <italic>Cydia</italic> (Lepidoptera: Tortricidae) by native and alien wasp species relative to elevation in subalpine <italic>Sophora</italic> (Fabaceae) forests on Mauna Kea, Hawaii</article-title>. <source>J Insect Conserv</source> <volume>8</volume>: <fpage>229</fpage>–<lpage>240</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Johnson1">
+        <label>9</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johnson</surname><given-names>MT</given-names></name>, <name name-style="western"><surname>Follett</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Jones</surname><given-names>VP</given-names></name> (<year>2005</year>) <article-title>Impacts of biological control and invasive species on a non-target native Hawaiian insect</article-title>. <source>Oecol</source> <volume>142</volume>: <fpage>529</fpage>–<lpage>540</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-King1">
+        <label>10</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>King</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rubinoff</surname><given-names>D</given-names></name> (<year>2008b</year>) <article-title>Host acceptance and suitability of endemic Hawaiian leafroller moth <italic>Omiodes continuatalis</italic> (Lepidoptera: Crambidae) for four non-native parasitoid species</article-title>. <source>Proc Hawaii Entomol Soc</source> <volume>40</volume>: <fpage>11</fpage>–<lpage>17</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-King2">
+        <label>11</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>King</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rubinoff</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Haines</surname><given-names>W</given-names></name> (<year>2009</year>) <article-title>Biology and distribution of a recently rediscovered endemic Hawaiian leafroller moth, <italic>Omiodes continuatalis</italic> (Crambidae) J Lep Soc</article-title>. <volume>63</volume>: <fpage>11</fpage>–<lpage>20</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Zimmerman1">
+        <label>12</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Zimmerman EC (1958) <italic>Insects of Hawaii, Lepidoptera: Pyraloidea.</italic> Honolulu, University of Hawaii Press.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Haines1">
+        <label>13</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haines</surname><given-names>WP</given-names></name>, <name name-style="western"><surname>Giffin</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Foote</surname><given-names>D</given-names></name> (<year>2004</year>) <article-title>Rediscovery of five species of <italic>Omiodes</italic> Guenée (Lepidoptera: Crambidae) on Hawai‘i Island</article-title>. <source>Bishop Museum Occasional Papers</source> <volume>79</volume>: <fpage>45</fpage>–<lpage>49</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Benson1">
+        <label>14</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Benson</surname><given-names>J</given-names></name>, <name name-style="western"><surname>van Driesche</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Pasquale</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Elkinton</surname><given-names>J</given-names></name> (<year>2003</year>) <article-title>Introduced braconid parasitoids and range reduction of a native butterfly in New England</article-title>. <source>Biol Control</source> <volume>28</volume>: <fpage>197</fpage>–<lpage>213</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-ESRI1">
+        <label>15</label>
+        <mixed-citation publication-type="other" xlink:type="simple">ESRI (2011) ArcGIS Desktop: Release 10. Redlands, CA: Environmental Systems Research Institute.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-King3">
+        <label>16</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>King</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rubinoff</surname><given-names>D</given-names></name> (<year>2008a</year>) <article-title>First record of fossorial behavior in Hawaiian leafroller moth larvae, <italic>Omiodes continuatalis</italic> (Lepidoptera: Crambidae) Pac Science</article-title>. <volume>62</volume>: <fpage>147</fpage>–<lpage>150</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Hijmans1">
+        <label>17</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hijmans</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Cameron</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Parra</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Jones</surname><given-names>PG</given-names></name>, <name name-style="western"><surname>Jarvis</surname><given-names>A</given-names></name> (<year>2005</year>) <article-title>Very high resolution interpolated climate surfaces for global land areas</article-title>. <source>Int J Climtol</source> <volume>25</volume>: <fpage>1965</fpage>–<lpage>1978</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Irving1">
+        <label>18</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Irving</surname><given-names>DB</given-names></name>, <name name-style="western"><surname>Perkins</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Sen Gupta</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Moise</surname><given-names>AF</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Evaluating global climate models for the Pacific Island region</article-title>. <source>Clim Res</source> <volume>49</volume>: <fpage>169</fpage>–<lpage>187</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Rissler1">
+        <label>19</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rissler</surname><given-names>LJ</given-names></name>, <name name-style="western"><surname>Apodaca</surname><given-names>JJ</given-names></name> (<year>2007</year>) <article-title>Adding more ecology into species delimitation: Ecological niche models and phylogeography help define cryptic species in the black salamander (<italic>Aneides flavipunctatus</italic>) Syst Biol</article-title>. <volume>56</volume>: <fpage>924</fpage>–<lpage>42</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Phillips1">
+        <label>20</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Phillips</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Anderson</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Schapire</surname><given-names>RE</given-names></name> (<year>2006</year>) <article-title>Maximum entropy modeling of species geographic distributions</article-title>. <source>Ecol Model</source> <volume>190</volume>: <fpage>231</fpage>–<lpage>259</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Pape1">
+        <label>21</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pape</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Gaubert</surname><given-names>P</given-names></name> (<year>2007</year>) <article-title>Modelling ecological niches from low numbers of occurrences: Assessment of the conservation status of poorly known Viverrids (Mammalia, Carnivora) across two continents</article-title>. <source>Divers Distrib</source> <volume>13</volume>: <fpage>890</fpage>–<lpage>902</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Pearson1">
+        <label>22</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pearson</surname><given-names>RG</given-names></name>, <name name-style="western"><surname>Raxworthy</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Nakamura</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Peterson</surname><given-names>AT</given-names></name> (<year>2007</year>) <article-title>Predicting species distributions from small numbers of occurrence records: A test case using cryptic geckos in Madagascar</article-title>. <source>J Biogeogr</source> <volume>34</volume>: <fpage>102</fpage>–<lpage>117</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Lippitt1">
+        <label>23</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lippitt</surname><given-names>CD</given-names></name>, <name name-style="western"><surname>Rogan</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Toledano</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Sangermano</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Eastman</surname><given-names>JR</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Incorporating anthropogenic variables into a species distribution model to map gypsy moth risk</article-title>. <source>Ecol Model</source> <volume>210</volume>: <fpage>339</fpage>–<lpage>350</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Waltari1">
+        <label>24</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Waltari</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Guralnick</surname><given-names>RP</given-names></name> (<year>2009</year>) <article-title>Ecological niche modeling of montane mammals in the great basin, North America: Examining past and present connectivity of species across basins and ranges</article-title>. <source>J of Biogeogr</source> <volume>36</volume>: <fpage>148</fpage>–<lpage>161</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Williams1">
+        <label>25</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>JN</given-names></name>, <name name-style="western"><surname>Seo</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Thorne</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Nelson</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Erwin</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Using species distribution models to predict new occurrences for rare plants</article-title>. <source>Divers Distrib</source> <volume>15</volume>: <fpage>565</fpage>–<lpage>576</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Edre1">
+        <label>26</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Edreń</surname><given-names>SMC</given-names></name>, <name name-style="western"><surname>Wisz</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Teilmann</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Dietz</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Söderkvist</surname><given-names>J</given-names></name> (<year>2010</year>) <article-title>Modelling spatial patterns in harbour porpoise satellite telemetry data using maximum entropy</article-title>. <source>Ecography</source> <volume>33</volume>: <fpage>698</fpage>–<lpage>708</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Marini1">
+        <label>27</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marini</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Barbet-Massin</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lopes</surname><given-names>LE</given-names></name>, <name name-style="western"><surname>Jiguet</surname><given-names>F</given-names></name> (<year>2010</year>) <article-title>Predicting the occurrence of rare Brazilian birds with species distribution models</article-title>. <source>J Ornithol</source> <volume>151</volume>: <fpage>857</fpage>–<lpage>866</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Peterson1">
+        <label>28</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peterson</surname><given-names>AT</given-names></name>, <name name-style="western"><surname>Papes</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Eaton</surname><given-names>M</given-names></name> (<year>2007</year>) <article-title>Transferability and model evaluation in ecological niche modeling: a comparison of GARP and Maxent: Ecography</article-title>. <volume>30</volume>: <fpage>550</fpage>–<lpage>560</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Kumar1">
+        <label>29</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kumar</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Stohlgren</surname><given-names>RJ</given-names></name> (<year>2009</year>) <article-title>Maxent modeling for predicting suitable habitat for threatened and endangered tree <italic>Canacomyrica monticola</italic> in New Caledonia</article-title>. <source>J Ecol Nat Enviro</source> <volume>1</volume>: <fpage>94</fpage>–<lpage>98</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Manel1">
+        <label>30</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Manel</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Williams</surname><given-names>HC</given-names></name>, <name name-style="western"><surname>Ormerod</surname><given-names>SJ</given-names></name> (<year>2001</year>) <article-title>Evaluating presence-absence models in ecology: The need to account for prevalence</article-title>. <source>J Appl Ecol</source> <volume>38</volume>: <fpage>921</fpage>–<lpage>931</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Allouche1">
+        <label>31</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Allouche</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Tsoar</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kadmon</surname><given-names>R</given-names></name> (<year>2006</year>) <article-title>Assessing the accuracy of species distribution models: Prevalence, kappa and the true skill statistic (TSS) J Appl Ecol</article-title>. <volume>43</volume>: <fpage>1223</fpage>–<lpage>1232</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Freeman1">
+        <label>32</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Freeman</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Moisen</surname><given-names>GG</given-names></name> (<year>2008</year>) <article-title>A comparison of the performance of threshold criteria for binary classification in terms of predicted prevalence and kappa</article-title>. <source>Ecol Model</source> <volume>217</volume>: <fpage>48</fpage>–<lpage>58</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Warren1">
+        <label>33</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Warren</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>Glor</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Turelli</surname><given-names>M</given-names></name> (<year>2010</year>) <article-title>ENMtools: A toolbox for comparative studies of environmental niche models</article-title>. <source>Ecogoraphy</source> <volume>33</volume>: <fpage>607</fpage>–<lpage>611</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Brotons1">
+        <label>34</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brotons</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Thuiller</surname><given-names>WT</given-names></name>, <name name-style="western"><surname>Araújo</surname><given-names>MB</given-names></name>, <name name-style="western"><surname>Hirzel</surname><given-names>AH</given-names></name> (<year>2004</year>) <article-title>Presence-Absence versus presence-only modelling methods for predicting bird habitat suitability</article-title>. <source>Ecography</source> <volume>27</volume>: <fpage>437</fpage>–<lpage>448</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Elith1">
+        <label>35</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Elith</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Graham</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Anderson</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Dudík</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ferrier</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Novel methods improve prediction of species' distributions from occurrence data</article-title>. <source>Ecography</source> <volume>29</volume>: <fpage>129</fpage>–<lpage>151</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Marmion1">
+        <label>36</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marmion</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Luoto</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Heikkinen</surname><given-names>RK</given-names></name>, <name name-style="western"><surname>Thuiller</surname><given-names>W</given-names></name> (<year>2009</year>) <article-title>The performance of state-of-the-art modelling techniques depends on geographical distribution of species</article-title>. <source>Ecol Model</source> <volume>220</volume>: <fpage>3512</fpage>–<lpage>3520</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-OrtegaHuerta1">
+        <label>37</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ortega-Huerta</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Peterson</surname><given-names>T</given-names></name> (<year>2008</year>) <article-title>Modeling ecological niches and predicting geographic distributions: A test of six presence-only methods</article-title>. <source>Rev Mex Biodivers</source> <volume>79</volume>: <fpage>205</fpage>–<lpage>216</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Phillips2">
+        <label>38</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Phillips</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Dudík</surname><given-names>M</given-names></name> (<year>2008</year>) <article-title>Modeling of species distributions with Maxent: New extensions and a comprehensive evaluation</article-title>. <source>Ecography</source> <volume>31</volume>: <fpage>161</fpage>–<lpage>175</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Anderson1">
+        <label>39</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Anderson RP, Gómez-Laverde M, Peterson AT (2002) Geographical distributions of spiny pocket mice in South America: insights from predictive models. Glob Ecol Biogeogr 11, 131–141.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Anderson2">
+        <label>40</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anderson</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Peterson</surname><given-names>AT</given-names></name>, <name name-style="western"><surname>Gómez-Laverde</surname><given-names>M</given-names></name> (<year>2002</year>) <article-title>Using niche-based GIS modeling to test geographic predictions of competitive exclusion and competitive release in South American pocket mice</article-title>. <source>Oikos</source> <volume>98</volume>: <fpage>3</fpage>–<lpage>16</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Anderson3">
+        <label>41</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anderson</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Lew</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Peterson</surname><given-names>AT</given-names></name> (<year>2003</year>) <article-title>Evaluating predictive models of species’ distributions: criteria for selecting optimal models</article-title>. <source>Ecol Model</source> <volume>162</volume>: <fpage>211</fpage>–<lpage>232</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-JimnezValverde1">
+        <label>42</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jiménez-Valverde</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Lobo</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Hortal</surname><given-names>J</given-names></name> (<year>2008</year>) <article-title>Not as good as they seem: the importance of concepts in species distribution modelling</article-title>. <source>Diversity Distrib</source> <volume>14</volume>: <fpage>885</fpage>–<lpage>890</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Vclavk1">
+        <label>43</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Václavík</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Meentemeyer</surname><given-names>RK</given-names></name> (<year>2009</year>) <article-title>Invasive species distribution modeling (iSDM): Are absence data and dispersal constraints needed to predict actual distributions?</article-title> <source>Ecol Model</source> <volume>220</volume>: <fpage>3248</fpage>–<lpage>3258</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Franklin1">
+        <label>44</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Franklin J (2009) <italic>Mapping species distributions: spatial inference and prediction.</italic> Cambridge University Press, Cambridge, UK.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Elith2">
+        <label>45</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Elith</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Phillips</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Hastie</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Dudík</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Chee</surname><given-names>YE</given-names></name>, <name name-style="western"><surname>Yates</surname><given-names>CJ</given-names></name> (<year>2011</year>) <article-title>A statistical explanation of MaxEnt for ecologists</article-title>. <source>Diversity Distrib</source> <volume>17</volume>: <fpage>43</fpage>–<lpage>57</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Canran1">
+        <label>46</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Canran</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Berry</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Dawson</surname><given-names>TP</given-names></name>, <name name-style="western"><surname>Pearson</surname><given-names>RG</given-names></name> (<year>2005</year>) <article-title>Selecting thresholds of occurrence in the prediction of species distributions</article-title>. <source>Ecography</source> <volume>28</volume>: <fpage>385</fpage>–<lpage>393</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Bartel1">
+        <label>47</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bartel</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Sexton</surname><given-names>JO</given-names></name> (<year>2009</year>) <article-title>Monitoring habitat dynamics for rare and endangered species using satellite images and niche-based models</article-title>. <source>Ecography</source> <volume>32</volume>: <fpage>888</fpage>–<lpage>896</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-JimnezValverde2">
+        <label>48</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jiménez-Valverde</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Lobo</surname><given-names>JM</given-names></name> (<year>2007</year>) <article-title>Threshold criteria for conversion of probability of species presence to either-or presence-absence</article-title>. <source>Acta Oecol</source> <volume>31</volume>: <fpage>361</fpage>–<lpage>369</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Warren2">
+        <label>49</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Warren</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>Glor</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Turelli</surname><given-names>M</given-names></name> (<year>2008</year>) <article-title>Environmental niche equivalency versus conservatism: Quantitative approaches to niche evolution</article-title>. <source>Evolution</source> <volume>62</volume>: <fpage>2868</fpage>–<lpage>83</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Warren3">
+        <label>50</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Warren</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Seifert</surname><given-names>S</given-names></name> (<year>2011</year>) <article-title>Environmental niche modeling in Maxent: The importance of model complexity and the performance of model selection criteria</article-title>. <source>Ecol Appl</source> <volume>21</volume>: <fpage>335</fpage>–<lpage>342</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Levins1">
+        <label>51</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Levins R. (1968) <italic>Evolution in Changing Environments</italic>, Princeton University Press.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Phillips3">
+        <label>52</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Phillips</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Dudík</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Elith</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Graham</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Lehmann</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Sample selection bias and presence-only distribution models: Implications for background and pseudo-absence data</article-title>. <source>Ecol Appl</source> <volume>19</volume>: <fpage>181</fpage>–<lpage>97</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Speight1">
+        <label>53</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Speight MR, Hunter MD, Watt AD (1999) <italic>Ecology of Insects: concepts and applications</italic>, Blackwell Science. 350pg.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Schultz1">
+        <label>54</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schultz</surname><given-names>CB</given-names></name>, <name name-style="western"><surname>Dlugosch</surname><given-names>KM</given-names></name> (<year>1999</year>) <article-title>Nectar and hostplant scarcity limit populations of an endangered Oregon butterfly</article-title>. <source>Oecol</source> <volume>119</volume>: <fpage>231</fpage>–<lpage>238</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Rubinoff1">
+        <label>55</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rubinoff</surname><given-names>D</given-names></name> (<year>2001</year>) <article-title>Evaluating the California gnatcatcher as an umbrella species for conservation of coastal sage scrub</article-title>. <source>Conserv Biol</source> <volume>15</volume>: <fpage>1374</fpage>–<lpage>1383</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Rubinoff2">
+        <label>56</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rubinoff</surname><given-names>D</given-names></name> (<year>2002</year>) <article-title>Endangered plants as guides for saving endemic insects in California</article-title>. <source>Fremontia</source> <volume>30</volume>: <fpage>62</fpage>–<lpage>66</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Samways1">
+        <label>57</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Samways MJ (2005) <italic>Insect Diversity Conservation</italic>. Cambridge University Press. Cambridge, UK. 342 pp.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Giambelluca1">
+        <label>58</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Giambelluca TW, Diaz HF, Luke MSA (2008), Secular temperature changes in Hawai‘i, Geophys Res Lett, 35, L12702, doi:10.1029/2008GL034377.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Chu1">
+        <label>59</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chu</surname><given-names>PS</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>YR</given-names></name>, <name name-style="western"><surname>Schroeder</surname><given-names>TA</given-names></name> (<year>2010</year>) <article-title>Changes in precipitation extremes in the Hawaiian Islands in a warming climate</article-title>. <source>J Clim</source> <volume>23</volume>: <fpage>4881</fpage>–<lpage>4900</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-ElisonTimm1">
+        <label>60</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Elison Timm O, Diaz HF, Giambelluca TW, Takahashi M (2011) Projection of changes in the frequency of heavy rain events over Hawaii based on leading Pacific climate modes, J Geophys Res, 116, D04109, doi:10.1029/2010JD014923.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-King4">
+        <label>61</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>King</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Haines</surname><given-names>WP</given-names></name>, <name name-style="western"><surname>Rubinoff</surname><given-names>D</given-names></name> (<year>2010</year>) <article-title>Impacts of invasive parasitoids on declining endemic Hawaiian leafroller moths (<italic>Omiodes</italic>: Crambidae) vary among sites and species. J Appl Ecol</article-title>. <volume>47</volume>: <fpage>299</fpage>–<lpage>308</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Howarth3">
+        <label>62</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Howarth FG (1985) Impacts of alien land arthropods and mollusks on native plants and animals in Hawaii. 149–173 in: CP Stone and JM Scott (eds.), <italic>Hawaii's terrestrial ecosystems: preservation and management</italic>. Univ. Hawaii Press. Honolulu, Hawaii. 584 pp.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Krushelnycky1">
+        <label>63</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krushelnycky</surname><given-names>PD</given-names></name>, <name name-style="western"><surname>Loope</surname><given-names>LL</given-names></name>, <name name-style="western"><surname>Reimer</surname><given-names>NJ</given-names></name> (<year>2005</year>) <article-title>The ecology, policy, and management of ants in Hawaii</article-title>. <source>Proc Hawaiian Entomol Soc</source> <volume>37</volume>: <fpage>1</fpage>–<lpage>25</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Krushelnycky2">
+        <label>64</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Krushelnycky PD (2012) Antweb. Ants of Hawaii. Available: <ext-link ext-link-type="uri" xlink:href="http://www.antweb.org/hawaii.jsp" xlink:type="simple">http://www.antweb.org/hawaii.jsp</ext-link>. Accessed: 14 May 2012).</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Reimer1">
+        <label>65</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Reimer NJ (1994) Distribution and impact of alien ants in vulnerable Hawaiian ecosystems, p. 11–22, In DF Williams (ed.), <italic>Exotic ants: Biology, impact, and control of introduced species,</italic> Westview Press, Boulder, CO. 332 p.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Peck1">
+        <label>66</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peck</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>Banko</surname><given-names>PC</given-names></name>, <name name-style="western"><surname>Swhartsfeld</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Euaparadorn</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Brink</surname><given-names>KW</given-names></name> (<year>2008</year>) <article-title>Alien dominance of the parasitoid wasp community along an elevation gradient on Hawai’i Island</article-title>. <source>Biol Inv</source> <volume>10(8)</volume>: <fpage>1441</fpage>–<lpage>1455</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Nishida1">
+        <label>67</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Nishida GM (2002) <italic>Hawaiian Terrestrial Arthropod Checklist</italic>. Fourth edition. Honolulu, Bishop Museum: iv +313 p.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Hawkins1">
+        <label>68</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hawkins</surname><given-names>BA</given-names></name>, <name name-style="western"><surname>Thomas</surname><given-names>MB</given-names></name>, <name name-style="western"><surname>Hochberg</surname><given-names>ME</given-names></name> (<year>1993</year>) <article-title>Refuge theory and biological control</article-title>. <source>Science</source> <volume>262(5138)</volume>: <fpage>1429</fpage>–<lpage>1432</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Clout1">
+        <label>69</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clout</surname><given-names>MN</given-names></name>, <name name-style="western"><surname>Craig</surname><given-names>JL</given-names></name> (<year>1995</year>) <article-title>The conservation of critically endangered flightless birds in New Zealand</article-title>. <source>Ibis</source> <volume>137</volume>: <fpage>181</fpage>–<lpage>190</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Gagn2">
+        <label>70</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Gagné WC (1980) Altitudinal distribution and composition of arthropods in ohia (<italic>Metrosideros collina</italic> subsp. <italic>polymorpha</italic>) canopies in the Hawaii Volcanoes National Park with ecological implications for some native biota. Proc. 3rd Hawaii Volcanoes Natl Park Nat Sci Conf, 115–123. Honolulu: Univ. Hawaii.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Gagn3">
+        <label>71</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Gagné WC (1981) Altitudinal distribution of organisms along an island mountain transect: canopy-associated arthropods. In <italic>Island ecosystems; biological organization in selected Hawaiian communities,</italic> ed. D. Mueller-Dombois, Bridges KW, and Carson HL. Stroudsburg, Penn.: Hutchinson Ross Pub. Co.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Gagn4">
+        <label>72</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Gagné WC (1982) Working toward an assessment of the conservation status of Hawaii's endemic arthropods, with emphasis on the moths or Lepidoptera. Proc 4th Hawaii Volcanoes Natl Park Nat Sci Conf, 63–72. Honolulu: Univ. Hawaii.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Gagn5">
+        <label>73</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Gagné WC, Christensen CC (1985) Conservation status of native terrestrial invertebrates in Hawai’i, p. 105–26. <italic>Hawaìi's terrestrial ecostystems: Preservation and management.</italic> Univ. of Hawaii Press, Honlulu. 584 pp.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-National1">
+        <label>74</label>
+        <mixed-citation publication-type="other" xlink:type="simple">National Oceanic and Atmospheric Institute (NOAA), &amp; National Ocean Services (NOS) (2007) <italic>10 m digital elevation model for Hawaii</italic> [Map]. Silver Spring, MD: NOAA.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Menuz1">
+        <label>75</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Menuz DR (2011) Using Species Distribution Models to Assess Invasion Theory and Provide Management Recommendations for Riparian Areas in the Eastern Columbia and Western Missouri River Basins. All Graduate Theses and Dissertations. Paper 1106. Available: <ext-link ext-link-type="uri" xlink:href="http://digitalcommons.usu.edu/etd/1106" xlink:type="simple">http://digitalcommons.usu.edu/etd/1106</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Rollins1">
+        <label>76</label>
+        <mixed-citation publication-type="other" xlink:type="simple">Rollins MG, Ward BC, Dillon G, Pratt S, Wolf A (2007) <italic>Developing the LANDFIRE Fire Regime Data Products.</italic> Available at: <ext-link ext-link-type="uri" xlink:href="http://www.landfire.gov/NationalProductDescriptions11.php" xlink:type="simple">http://www.landfire.gov/NationalProductDescriptions11.php</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="pone.0051885-Delworth1">
+        <label>77</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Delworth</surname><given-names>TL</given-names></name>, <name name-style="western"><surname>Broccoli</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Rosati</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Stouffer</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Balaji</surname><given-names>V</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>GFDL's CM2 Global Coupled Climate Models. Part I: Formulation and Simulation Characteristics</article-title>. <source>J Clim</source> <volume>19(5)</volume>: <fpage>643</fpage>–<lpage>674</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
