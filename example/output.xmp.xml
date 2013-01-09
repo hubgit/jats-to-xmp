@@ -6,23 +6,23 @@
       <terms:abstract>
         Survey data over the last 100 years indicate that populations of the endemic Hawaiian leafroller moth, Omiodes continuatalis (Wallengren) (Lepidoptera: Crambidae), have declined, and the species is extirpated from large portions of its original range. Declines have been attributed largely to the invasion of non-native parasitoid species into Hawaiian ecosystems. To quantify changes in O. continuatalis distribution, we applied the maximum entropy modeling approach using Maxent. The model referenced historical (1892–1967) and current (2004–2008) survey data, to create predictive habitat suitability maps which illustrate the probability of occurrence of O. continuatalis based on historical data as contrasted with recent survey results. Probability of occurrence is predicted based on the association of biotic (vegetation) and abiotic (proxy of precipitation, proxy of temperature, elevation) environmental factors with 141 recent and historic survey locations, 38 of which O. continuatalis were collected from. Models built from the historical and recent surveys suggest habitat suitable for O. continuatalis has changed significantly over time, decreasing both in quantity and quality. We reference these data to examine the potential effects of non-native parasitoids as a factor in changing habitat suitability and range contraction for O. continuatalis. Synthesis and applications: Our results suggest that the range of O. continuatalis, an endemic Hawaiian species of conservation concern, has shrunk as its environment has degraded. Although few range shifts have been previously demonstrated in insects, such contractions caused by pressure from introduced species may be important factors in insect extinctions.
       </terms:abstract>
-      <terms:bibliographicCitation/>
+      <terms:bibliographicCitation>Vorsino AE, King CB, Haines WP, Rubinoff D (2013) Modeling the Habitat Retreat of the Rediscovered Endemic Hawaiian Moth Omiodes continuatalis Wallengren (Lepidoptera: Crambidae). PLoS ONE 8(1): e51885. doi:10.1371/journal.pone.0051885</terms:bibliographicCitation>
       <terms:creator>
         <rdf:Seq>
-          <rdf:li>Adam E.Vorsino</rdf:li>
-          <rdf:li>Cynthia B.King</rdf:li>
-          <rdf:li>William P.Haines</rdf:li>
-          <rdf:li>DanielRubinoff</rdf:li>
+          <rdf:li>Adam E. Vorsino</rdf:li>
+          <rdf:li>Cynthia B. King</rdf:li>
+          <rdf:li>William P. Haines</rdf:li>
+          <rdf:li>Daniel Rubinoff</rdf:li>
         </rdf:Seq>
       </terms:creator>
-      <terms:dateSubmitted/>
-      <terms:dateAccepted/>
-      <terms:issued/>
+      <terms:dateSubmitted>2011-05-08</terms:dateSubmitted>
+      <terms:dateAccepted>2011-11-13</terms:dateAccepted>
+      <terms:issued>2013-01-02</terms:issued>
       <terms:format>application/pdf</terms:format>
       <terms:identifier>doi:10.1371/journal.pone.0051885</terms:identifier>
       <terms:license>http://creativecommons.org/licenses/by/3.0/</terms:license>
       <terms:publisher>Public Library of Science</terms:publisher>
-      <terms:rights/>
+      <terms:rights>Copyright © 2013 Vorsino et al.</terms:rights>
       <terms:subject>
         <rdf:Seq>
           <rdf:li>Research Article</rdf:li>
@@ -39,10 +39,10 @@
       <dc:title>Modeling the Habitat Retreat of the Rediscovered Endemic Hawaiian Moth Omiodes continuatalis Wallengren (Lepidoptera: Crambidae)</dc:title>
       <dc:creator>
         <rdf:Seq>
-          <rdf:li>Adam E.Vorsino</rdf:li>
-          <rdf:li>Cynthia B.King</rdf:li>
-          <rdf:li>William P.Haines</rdf:li>
-          <rdf:li>DanielRubinoff</rdf:li>
+          <rdf:li>Adam E. Vorsino</rdf:li>
+          <rdf:li>Cynthia B. King</rdf:li>
+          <rdf:li>William P. Haines</rdf:li>
+          <rdf:li>Daniel Rubinoff</rdf:li>
         </rdf:Seq>
       </dc:creator>
       <dc:subject>
@@ -57,18 +57,18 @@
         Survey data over the last 100 years indicate that populations of the endemic Hawaiian leafroller moth, Omiodes continuatalis (Wallengren) (Lepidoptera: Crambidae), have declined, and the species is extirpated from large portions of its original range. Declines have been attributed largely to the invasion of non-native parasitoid species into Hawaiian ecosystems. To quantify changes in O. continuatalis distribution, we applied the maximum entropy modeling approach using Maxent. The model referenced historical (1892–1967) and current (2004–2008) survey data, to create predictive habitat suitability maps which illustrate the probability of occurrence of O. continuatalis based on historical data as contrasted with recent survey results. Probability of occurrence is predicted based on the association of biotic (vegetation) and abiotic (proxy of precipitation, proxy of temperature, elevation) environmental factors with 141 recent and historic survey locations, 38 of which O. continuatalis were collected from. Models built from the historical and recent surveys suggest habitat suitable for O. continuatalis has changed significantly over time, decreasing both in quantity and quality. We reference these data to examine the potential effects of non-native parasitoids as a factor in changing habitat suitability and range contraction for O. continuatalis. Synthesis and applications: Our results suggest that the range of O. continuatalis, an endemic Hawaiian species of conservation concern, has shrunk as its environment has degraded. Although few range shifts have been previously demonstrated in insects, such contractions caused by pressure from introduced species may be important factors in insect extinctions.
       </dc:description>
       <dc:publisher>Public Library of Science</dc:publisher>
-      <dc:rights/>
+      <dc:rights>Copyright © 2013 Vorsino et al.</dc:rights>
       <!--PRISM-->
       <prism:url>http://dx.doi.org/10.1371/journal.pone.0051885</prism:url>
       <prism:doi>10.1371/journal.pone.0051885</prism:doi>
       <prism:issn>1932-6203</prism:issn>
       <prism:volume>8</prism:volume>
       <prism:publicationName>PLoS ONE</prism:publicationName>
-      <prism:publicationDate/>
-      <prism:copyright/>
+      <prism:publicationDate>2013-01-02</prism:publicationDate>
+      <prism:copyright>Copyright © 2013 Vorsino et al.</prism:copyright>
       <!--rights-->
       <rights:Marked>True</rights:Marked>
-      <rights:WebStatement/>
+      <rights:WebStatement/><!-- TODO -->
       <rights:UsageTerms>This work is licensed to the public under the Creative Commons Attribution license http://creativecommons.org/licenses/by/3.0/</rights:UsageTerms>
       <!--license-->
       <cc:license>http://creativecommons.org/licenses/by/3.0/</cc:license>
@@ -77,18 +77,18 @@
       <!--CrossMark-->
       <crossmark:MajorVersionDate>2012-10-11</crossmark:MajorVersionDate>
       <crossmark:DOI>10.1371/journal.pone.0051885</crossmark:DOI>
-      <crossmark:CrossmarkDomainExclusive>false</crossmark:CrossmarkDomainExclusive>
+      <crossmark:CrossmarkDomainExclusive>true</crossmark:CrossmarkDomainExclusive>
       <crossmark:CrossMarkDomains>
         <rdf:Seq>
-          <rdf:li/>
+          <rdf:li>example.com</rdf:li>
         </rdf:Seq>
       </crossmark:CrossMarkDomains>
       <pdfx:CrossmarkMajorVersionDate>2012-10-11</pdfx:CrossmarkMajorVersionDate>
       <pdfx:doi>10.1371/journal.pone.0051885</pdfx:doi>
-      <pdfx:CrossmarkDomainExclusive>false</pdfx:CrossmarkDomainExclusive>
+      <pdfx:CrossmarkDomainExclusive>true</pdfx:CrossmarkDomainExclusive>
       <pdfx:CrossMarkDomains>
         <rdf:Seq>
-          <rdf:li/>
+          <rdf:li>example.com</rdf:li>
         </rdf:Seq>
       </pdfx:CrossMarkDomains>
       <xmp:MetadataDate>2013-01-09T01:46:25Z</xmp:MetadataDate>
