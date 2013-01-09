@@ -1,0 +1,197 @@
+    
+    _:li4     <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:L87C8 .
+    
+    _:li4     <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:li3 .
+    
+    _:li3     <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:L91C8 .
+    
+    _:li3     <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:li2 .
+    
+    _:li2     <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:L95C8 .
+    
+    _:li2     <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:li1 .
+    
+    _:li1     <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:L99C8 .
+    
+    _:li1     <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+    
+    <file:///Users/alf/Code/web/2013/01/jats-to-xmp/$license>     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/LicenseDocument> .
+    
+    <http://creativecommons.org/licenses/by/3.0/legalcode>     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/AcademicArticle> .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://creativecommons.org/ns#attributionName> "Vorsino et al" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://creativecommons.org/ns#attributionURL> "http://dx.doi.org/10.1371/journal.pone.0051885" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://creativecommons.org/ns#license> "http://creativecommons.org/licenses/by/3.0/" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://ns.adobe.com/pdf/1.3/Keywords> "" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://ns.adobe.com/xap/1.0/CreateDate> "2013-01-09" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://ns.adobe.com/xap/1.0/MetadataDate> "2013-01-09" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://ns.adobe.com/xap/1.0/ModifyDate> "2013-01-09" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://ns.adobe.com/xap/1.0/rights/Marked> "True" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://ns.adobe.com/xap/1.0/rights/UsageTerms> "This work is licensed to the public under the Creative Commons Attribution license http://creativecommons.org/licenses/by/3.0/" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://ns.adobe.com/xap/1.0/rights/WebStatement> "" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/creator> "Adam E. Vorsino" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/creator> "Cynthia B. King" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/creator> "Daniel Rubinoff" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/creator> "William P. Haines" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/description> "doi:10.1371/journal.pone.0051885" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/format> "application/pdf" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/identifier> "doi:10.1371/journal.pone.0051885" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/publisher> "Public Library of Science" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/rights> "Copyright \u00A9\u00A02013 Vorsino et al" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/subject> "Biology" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/subject> "Computational Biology" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/subject> "Evolutionary Biology" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/subject> "Research Article" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/elements/1.1/title> "Modeling the Habitat Retreat of the Rediscovered Endemic Hawaiian Moth Omiodes continuatalis Wallengren (Lepidoptera: Crambidae)" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/abstract> "\n        Survey data over the last 100 years indicate that populations of the endemic Hawaiian leafroller moth, Omiodes continuatalis (Wallengren) (Lepidoptera: Crambidae), have declined, and the species is extirpated from large portions of its original range. Declines have been attributed largely to the invasion of non-native parasitoid species into Hawaiian ecosystems. To quantify changes in O. continuatalis distribution, we applied the maximum entropy modeling approach using Maxent. The model referenced historical (1892\u20131967) and current (2004\u20132008) survey data, to create predictive habitat suitability maps which illustrate the probability of occurrence of O. continuatalis based on historical data as contrasted with recent survey results. Probability of occurrence is predicted based on the association of biotic (vegetation) and abiotic (proxy of precipitation, proxy of temperature, elevation) environmental factors with 141 recent and historic survey locations, 38 of which O. continuatalis were collected from. Models built from the historical and recent surveys suggest habitat suitable for O. continuatalis has changed significantly over time, decreasing both in quantity and quality. We reference these data to examine the potential effects of non-native parasitoids as a factor in changing habitat suitability and range contraction for O. continuatalis. Synthesis and applications: Our results suggest that the range of O. continuatalis, an endemic Hawaiian species of conservation concern, has shrunk as its environment has degraded. Although few range shifts have been previously demonstrated in insects, such contractions caused by pressure from introduced species may be important factors in insect extinctions.\n      " .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/bibliographicCitation> "Vorsino AE, King CB, Haines WP, Rubinoff D (2013) Modeling the Habitat Retreat of the Rediscovered Endemic Hawaiian Moth Omiodes continuatalis Wallengren (Lepidoptera: Crambidae). PLoS ONE 8(1): e51885. doi:10.1371/journal.pone.0051885" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/creator> _:L26C8 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/creator> _:L32C8 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/creator> _:L38C8 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/creator> _:L44C8 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/dateAccepted> "" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/dateSubmitted> "" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/format> _:L53C8 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/identifier> "doi:10.1371/journal.pone.0051885" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/isPartOf> <urn:issn:1932-6203> .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/issued> "" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/license> <file:///Users/alf/Code/web/2013/01/jats-to-xmp/$license> .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/publisher> _:L63C8 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by/3.0/legalcode> .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/subject> _:L71C6 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/subject> _:L74C6 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/subject> _:L77C6 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/subject> _:L80C6 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/title> "Modeling the Habitat Retreat of the Rediscovered Endemic Hawaiian Moth Omiodes continuatalis Wallengren (Lepidoptera: Crambidae)" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/dc/terms/type> <http://purl.org/dc/dcmitype/Text> .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/ontology/bibo/authorList> _:li4 .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/ontology/bibo/doi> "10.1371/journal.pone.0051885" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/ontology/bibo/issn> "1932-6203" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/ontology/bibo/issue> "1" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/ontology/bibo/uri> "http://dx.doi.org/10.1371/journal.pone.0051885" .
+    
+    <http://dx.doi.org/10.1371/journal.pone.0051885>     <http://purl.org/ontology/bibo/volume> "8" .
+    
+    <urn:issn:1932-6203>     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Periodical> .
+    
+    <urn:issn:1932-6203>     <http://purl.org/dc/elements/1.1/title> "PLoS ONE" .
+    
+    <urn:issn:1932-6203>     <http://purl.org/ontology/bibo/uri> "" .
+    
+    _:L26C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+    
+    _:L26C8     <http://xmlns.com/foaf/0.1/familyName> "Vorsino" .
+    
+    _:L26C8     <http://xmlns.com/foaf/0.1/givenName> "Adam E." .
+    
+    _:L32C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+    
+    _:L32C8     <http://xmlns.com/foaf/0.1/familyName> "King" .
+    
+    _:L32C8     <http://xmlns.com/foaf/0.1/givenName> "Cynthia B." .
+    
+    _:L38C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+    
+    _:L38C8     <http://xmlns.com/foaf/0.1/familyName> "Haines" .
+    
+    _:L38C8     <http://xmlns.com/foaf/0.1/givenName> "William P." .
+    
+    _:L44C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+    
+    _:L44C8     <http://xmlns.com/foaf/0.1/familyName> "Rubinoff" .
+    
+    _:L44C8     <http://xmlns.com/foaf/0.1/givenName> "Daniel" .
+    
+    _:L53C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaTypeOrExtent> .
+    
+    _:L53C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "application/pdf" .
+    
+    _:L63C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+    
+    _:L63C8     <http://xmlns.com/foaf/0.1/homepage> "" .
+    
+    _:L63C8     <http://xmlns.com/foaf/0.1/name> "Public Library of Science" .
+    
+    _:L71C6     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Research Article" .
+    
+    _:L74C6     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Biology" .
+    
+    _:L77C6     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Computational Biology" .
+    
+    _:L80C6     <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Evolutionary Biology" .
+    
+    _:L87C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+    
+    _:L87C8     <http://xmlns.com/foaf/0.1/familyName> "Vorsino" .
+    
+    _:L87C8     <http://xmlns.com/foaf/0.1/givenName> "Adam E." .
+    
+    _:L91C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+    
+    _:L91C8     <http://xmlns.com/foaf/0.1/familyName> "King" .
+    
+    _:L91C8     <http://xmlns.com/foaf/0.1/givenName> "Cynthia B." .
+    
+    _:L95C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+    
+    _:L95C8     <http://xmlns.com/foaf/0.1/familyName> "Haines" .
+    
+    _:L95C8     <http://xmlns.com/foaf/0.1/givenName> "William P." .
+    
+    _:L99C8     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+    
+    _:L99C8     <http://xmlns.com/foaf/0.1/familyName> "Rubinoff" .
+    
+    _:L99C8     <http://xmlns.com/foaf/0.1/givenName> "Daniel" .
+    
