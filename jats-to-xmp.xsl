@@ -32,7 +32,7 @@
           <terms:creator>
             <rdf:Seq>
               <for-each select="$article-meta/contrib-group/contrib[@contrib-type='author']/name">
-                <rdf:li><value-of select="given-names"/><value-of select="surname"/></rdf:li>
+                <rdf:li><value-of select="given-names"/> <value-of select="surname"/></rdf:li>
               </for-each>
             </rdf:Seq>
           </terms:creator>
@@ -61,7 +61,7 @@
           <dc:creator>
             <rdf:Seq>
               <for-each select="$article-meta/contrib-group/contrib[@contrib-type='author']/name">
-                <rdf:li><value-of select="given-names"/><value-of select="surname"/></rdf:li>
+                <rdf:li><value-of select="given-names"/>< value-of select="surname"/></rdf:li>
               </for-each>
             </rdf:Seq>
           </dc:creator>
