@@ -8,4 +8,5 @@ Convert JATS XML to XMP
 
     exiftool -tagsfromfile example/output.xmp.xml -all:all article.pdf
     
-    jhove -c conf/jhove.conf -m pdf-hul -k article.pdf
+    #jhove -c conf/jhove.conf -m pdf-hul -k article.pdf
+    ./jhove2.sh article.pdf
